@@ -37,7 +37,7 @@ There are a variety of clustering algorithms that can be classified into: hierar
 Some hierarchical grouping algorithms that belong to this sorting mode are CURE \cite{b20}, CHAMELEON \cite{b21}, and BIRCH \cite{b22}.
 \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm]{img/hierarchical}
+   \includegraphics[width=14cm, height=5cm]{img/hierarchical}
     \caption{Hierarchical Clustering}
     \label{fig:hierarchical}%
 \end{figure}
@@ -46,14 +46,14 @@ k, where each partition represents a cluster.
 Partial clustering organizes the objects within k clusters so that the total deviation of each object from the center of its cluster or from a cluster distribution is minimal. The deviation of a point can be evaluated differently according to the algorithm, and is generally known as a similarity function. Among the partitioning clustering algorithms we can find CLARANS, CLARA \cite{b24}, K-prototype \cite{b25}, K-mode \cite{b26} and K-means \cite{b27}.
 \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm]{img/partitional}
+   \includegraphics[width=14cm, height=5cm]{img/partitional}
     \caption{Partitional Clustering}
     \label{fig:partitional}%
 \end{figure}
   \item Density-based algorithms obtain clusters based on dense regions of objects in the data space that are separated by low-density regions (these isolated elements represent noise). Among the density-based algorithms, we highlight the following: Dbscan \cite{b28}, and Denclue \cite{b29}.
   \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm]{img/density}
+   \includegraphics[width=14cm, height=5cm]{img/density}
     \caption{Density Clustering}
     \label{fig:density}%
 \end{figure}
@@ -61,7 +61,7 @@ Partial clustering organizes the objects within k clusters so that the total dev
   \item Model-based methods are primarily based on a probability distribution. To be able to measure similarity it is based on the mean values and the algorithm tries to minimize the square error function. Auto Class algorithm uses the Bayesian approach, starting with a random initialization of parameters that is gradually adjusted in order to find the maximum probability estimates. Among the model-based algorithms SOM \cite{b34}
     \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm]{img/model}
+   \includegraphics[width=14cm, height=5cm]{img/model}
     \caption{Model-Based Clustering}
     \label{fig:model}%
 \end{figure}
@@ -115,9 +115,7 @@ measure calculates the similarity between the shapes of two gene expression patt
 
 \section*{Internal and External clustering validation measures}\label{sec:internalandexternalmetricssec}
 
-Clustering validation is a technique to find a set of clusters that best fits natural partitions (number of clusters) without any class information.
-\\
-The results of a clustering algorithm are known as cluster validity. The following criteria must therefore be taken into account when investigating the validity of clusters. The first criterion is based on external measures, which involves evaluating the results of a base algorithm in a pre-specified structure which is imposed on a data set and reflects our intuition about the structure of clustering of the data set. The second criterion is based on internal measures where it evaluates the results of a clustering algorithm in terms of the quantity involved in the vectors of the dataset itself (e.g. the proximity matrix). And as a third criterion known as relative criterion whose purpose is to compare the results of execution of an algorithm with another using different parameters.
+Clustering validation is a technique to find a set of clusters that best fits natural partitions (number of clusters) without any class information.The results of a clustering algorithm are known as cluster validity. The following criteria must therefore be taken into account when investigating the validity of clusters. The first criterion is based on external measures, which involves evaluating the results of a base algorithm in a pre-specified structure which is imposed on a data set and reflects our intuition about the structure of clustering of the data set. The second criterion is based on internal measures where it evaluates the results of a clustering algorithm in terms of the quantity involved in the vectors of the dataset itself (e.g. the proximity matrix). And as a third criterion known as relative criterion whose purpose is to compare the results of execution of an algorithm with another using different parameters.
 There are two proposed criteria for the evaluation and selection of an optimal clustering \cite{b53} \cite{b52}:
 \begin{enumerate}
   \item Compactness, the members of each cluster should be as close to each other as possible. A common measure of compactness is the variance, which should be minimized.
@@ -193,7 +191,7 @@ The above evaluation measures can be grouped into families in order to evaluate 
 
 \begin{figure}[htbp]
   \centering
-    \subfloat{{\includegraphics[width=6.5cm]{img/external} }}%
+    \subfloat{{\includegraphics[width=6.5cm,height=6cm]{img/external} }}%
     \caption{External validation methods \cite{b54}}%
     \label{fig:external}%
 \end{figure}
