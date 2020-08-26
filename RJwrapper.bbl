@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -323,6 +323,12 @@ A.~Thalamuthu, I.~Mukhopadhyay, X.~Zheng, and G.~C. Tseng.
   analysis.
 \newblock \emph{Bioinformatics}, 22\penalty0 (19):\penalty0 2405--2412, 07
   2006.
+
+\bibitem[Vico et~al.(2016)Vico, Charte, González, Carmona, and Del~Jesus]{b55}
+A.~M. Vico, F.~Charte, P.~González, C.~J. Carmona, and M.~J. Del~Jesus.
+\newblock Subgroup discovery with evolutionary fuzzy systems in r: The sdefsr
+  package.
+\newblock \emph{The R Journal}, 8:\penalty0 307--323, 01 2016.
 
 \bibitem[Vlegels and Lievens(2017)]{b5}
 J.~Vlegels and J.~Lievens.

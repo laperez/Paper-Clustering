@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  18 AUG 2020 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  26 AUG 2020 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1151,14 +1151,13 @@ File: img/internal.png Graphic file (type png)
 <use img/internal.png>
 Package pdftex.def Info: img/internal.png  used on input line 219.
 (pdftex.def)             Requested size: 184.9429pt x 80.17781pt.
- [7 <./img/external.png> <./img/cohesion.png> <./img/internal.png>]
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 229.
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 226.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.18004pt on input line 229.
+(Font)              scaled to size 9.18004pt on input line 226.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1169,67 +1168,77 @@ Package microtype Info: Character `textendash ' is missing
 Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/zi4/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
- [8]
-LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 271.
+ [7 <./img/external.png> <./img/cohesion.png> <./img/internal.png>]
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 266.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 9.18004pt on input line 271.
+(Font)              scaled to size 9.18004pt on input line 266.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [9]
-[10] [11]
-<img/entropy.png, id=327, 556.0775pt x 439.6425pt>
+ [8]
+[9] [10] [11]
+<img/entropy.png, id=331, 599.23875pt x 439.6425pt>
 File: img/entropy.png Graphic file (type png)
 <use img/entropy.png>
-Package pdftex.def Info: img/entropy.png  used on input line 468.
-(pdftex.def)             Requested size: 184.9429pt x 146.21619pt.
-<img/dunn.png, id=328, 556.0775pt x 439.6425pt>
+Package pdftex.def Info: img/entropy.png  used on input line 483.
+(pdftex.def)             Requested size: 184.9429pt x 135.684pt.
+<img/dunn.png, id=332, 599.23875pt x 439.6425pt>
 File: img/dunn.png Graphic file (type png)
 <use img/dunn.png>
-Package pdftex.def Info: img/dunn.png  used on input line 470.
-(pdftex.def)             Requested size: 184.9429pt x 146.21619pt.
-<img/app.png, id=330, 1407.2575pt x 733.74126pt>
+Package pdftex.def Info: img/dunn.png  used on input line 485.
+(pdftex.def)             Requested size: 184.9429pt x 135.684pt.
+<img/app.png, id=334, 1407.2575pt x 733.74126pt>
 File: img/app.png Graphic file (type png)
 <use img/app.png>
-Package pdftex.def Info: img/app.png  used on input line 489.
+Package pdftex.def Info: img/app.png  used on input line 504.
 (pdftex.def)             Requested size: 398.33858pt x 207.68535pt.
-<img/app1.png, id=331, 1402.23875pt x 756.8275pt>
+ [12 <./img/entropy.png> <./img/dunn.png>]
+<img/app1.png, id=345, 1402.23875pt x 756.8275pt>
 File: img/app1.png Graphic file (type png)
 <use img/app1.png>
-Package pdftex.def Info: img/app1.png  used on input line 499.
+Package pdftex.def Info: img/app1.png  used on input line 514.
 (pdftex.def)             Requested size: 398.33858pt x 214.99364pt.
- [12 <./img/entropy.png> <./img/dunn.png>] [13 <./img/app.png> <./img/app1.png>
-] (./RJwrapper.bbl (./RJwrapper.brf)
+ [13 <./img/app.png> <./img/app1.png>]
+<img/variable_false.png, id=356, 691.58376pt x 37.13875pt>
+File: img/variable_false.png Graphic file (type png)
+<use img/variable_false.png>
+Package pdftex.def Info: img/variable_false.png  used on input line 531.
+(pdftex.def)             Requested size: 398.33858pt x 21.39145pt.
+<img/variable_true.png, id=358, 676.5275pt x 38.1425pt>
+File: img/variable_true.png Graphic file (type png)
+<use img/variable_true.png>
+Package pdftex.def Info: img/variable_true.png  used on input line 539.
+(pdftex.def)             Requested size: 398.33858pt x 22.45905pt.
+ (./RJwrapper.bbl (./RJwrapper.brf)
 \tf@brf=\write6
 \openout6 = `RJwrapper.brf'.
 
- [14] [15]) [16]) [17]
+ [14 <./img/variable_false.png> <./img/variable_true.png>] [15] [16])) [17]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
-
-(./RJwrapper.aux)
+ (./RJwrapper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
 Package rerunfilecheck Info: File `RJwrapper.out' has not changed.
-(rerunfilecheck)             Checksum: 84A177E907BADF5ACA8FDE7F95C3E369;534.
+(rerunfilecheck)             Checksum: 2D36FBEE38CCE8C161AEDF722C882417;558.
 Package rerunfilecheck Info: File `RJwrapper.brf' has not changed.
-(rerunfilecheck)             Checksum: B05AD6AE71DCEC5E65704FFD89722D1C;2234.
+(rerunfilecheck)             Checksum: C3D7F4D45CEC8BB3F762FEE078C09C6C;2280.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 25.
  ) 
 Here is how much of TeX's memory you used:
- 22360 strings out of 492649
- 398564 string characters out of 6129622
- 505904 words of memory out of 5000000
- 25468 multiletter control sequences out of 15000+600000
+ 22380 strings out of 492649
+ 398937 string characters out of 6129622
+ 506187 words of memory out of 5000000
+ 25483 multiletter control sequences out of 15000+600000
  45929 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,94p,1301b,641s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,94p,1301b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/
 usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/usr
 /local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/
@@ -1242,10 +1251,10 @@ live/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on RJwrapper.pdf (17 pages, 481093 bytes).
+Output written on RJwrapper.pdf (17 pages, 497476 bytes).
 PDF statistics:
- 504 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 31356 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 518 PDF objects out of 1000 (max. 8388607)
+ 453 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 31366 words of extra memory for PDF output out of 35830 (max. 10000000)
 
