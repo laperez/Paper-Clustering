@@ -11,7 +11,7 @@ Clustering is an unsupervised learning technique where the model is adjusted to 
 
 \section*{Introduction}
 
-Exploring the properties of information in order to make groups is an unsupervised learning technique known as clustering \citep{b46} \citep{b47}. This technique is a concise data model where a set of data must be partitioned and introduced in groups or clusters of data. These clusters must meet two conditions: clusters must be the most disparate possible among them, and the elements that contain them the most similar. If we review the literature related to clustering we can see that the fields where they can be applied are multiple, among which we highlight the following: Identify tourists and analyze their destination patterns from location-based social media data \citep{b1}, \pkg{Clustering} algorithm that maximizes performance on 5G heterogeneous networks \citep{b2}, Application of data mining techniques to agriculture data \citep{b3}, Weighting of characteristics based on strength between categories and within categories for the analysis of feelings \citep{b4}, Music classification, genres and taste patterns \citep{b5}, Predict the direction, maximum, minimum and closing prices of the daily exchange rate of bitcoins \citep{b6} and \pkg{Clustering} of people in a social network based on textual similarity \citep{b7}.\\
+Exploring the properties of information in order to make groups is an unsupervised learning technique known as clustering \citep{b46} \citep{b47}. This technique is a concise data model where a set of data must be partitioned and introduced in groups or clusters of data. These clusters must meet two conditions: clusters must be the most disparate possible among them, and the elements that contain them the most similar. If we review the literature related to clustering we can see that the fields where they can be applied are multiple, among which we highlight the following: Identify tourists and analyze their destination patterns from location-based social media data \citep{b1}, Clustering algorithm that maximizes performance on 5G heterogeneous networks \citep{b2}, Application of data mining techniques to agriculture data \citep{b3}, Weighting of characteristics based on strength between categories and within categories for the analysis of feelings \citep{b4}, Music classification, genres and taste patterns \citep{b5}, Predict the direction, maximum, minimum and closing prices of the daily exchange rate of bitcoins \citep{b6} and Clustering of people in a social network based on textual similarity \citep{b7}.\\
 As a rule, the clustering algorithms are based on the optimization of an objective function, which is usually the weighted sum of the distance to the centers, although these functions may vary and in some cases consists of the definition of functions. In the literature we can group the data in different ways among which we highlight \citep{b48}: partitional, hierarchical or based on density. One of the best known algorithms that solves the clustering problem is the k-means \citep{b49}\\
 Throughout the literature we have located a wide variety of frameworks that work with clustering algorithm implementations among which we can cite the following: Weka \citep{b13}, ClustVis \citep{b14} and Keel \citep{b15} among others. Also within R there is a specific Cluster task view. Inside this section we see two well differentiated parts: on one hand we have the most outstanding packages by functionality and in second place we observe the set of packages that work with cluster ordered.From the set of packages we highlight the following: \pkg{ClusterR} \citep{b9}, \pkg{apcluster} \citep{b10}, \pkg{cluster} \citep{b11}, \pkg{advclust} \citep{b12} as well as alternatives to the traditional implementation of k-means and agglomerative hierarchical clustering.\\
 This contribution presents the \pkg{Clustering} package. It is a package that allows you to compare multiple clustering algorithms simultaneously and assess the accuracy of the results. The purpose of this package is to evaluate a set of datasets to determine which variables have the best behavior for a series of clustering algorithms. So we can make evaluations of the clusters created, how they have been distributed, if the distributions are uniform or how they have been categorized from the data.\\
@@ -22,7 +22,7 @@ The distribution of the content of this contribution is as follows: Firstly, in 
 Cluster analysis is an unsupervised learning method that constitutes a cornerstone of an intelligent data analysis process. It is used for the exploration of inter-relationships among a collection of patterns, by organizing them into homogeneous clusters. It is called unsupervised learning because unlike classification (known as supervised learning), no a priori labeling of some patterns is available to use in categorizing others and inferring the cluster structure of the whole data \citep{b17}. The basic concept of clustering should be expressed as follows:
 \\
 \begin{quote}
-\pkg{Clustering} is the process of identifying natural clusters or clusters within multidimensional data based on some measure of similarity (Euclidean, Manhattan) \citep{b18}.
+Clustering is the process of identifying natural clusters or clusters within multidimensional data based on some measure of similarity (Euclidean, Manhattan) \citep{b18}.
 \end{quote}
 
 
@@ -50,6 +50,8 @@ Partial clustering organizes the objects within k clusters so that the total dev
     \caption{Partitional Clustering}
     \label{fig:partitional}%
 \end{figure}
+\\
+\\
   \item Density-based algorithms obtain clusters based on dense regions of objects in the data space that are separated by low-density regions (these isolated elements represent noise). Among the density-based algorithms, we highlight the following: Dbscan \cite{b28}, and Denclue \cite{b29}.
   \begin{figure}[htbp]
   \centering
@@ -61,7 +63,7 @@ Partial clustering organizes the objects within k clusters so that the total dev
   \item Model-based methods are primarily based on a probability distribution. To be able to measure similarity it is based on the mean values and the algorithm tries to minimize the square error function. Auto Class algorithm uses the Bayesian approach, starting with a random initialization of parameters that is gradually adjusted in order to find the maximum probability estimates. Among the model-based algorithms SOM \cite{b34}
     \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm, height=5cm]{img/model}
+   \includegraphics[width=14cm, height=4.5cm]{img/model}
     \caption{Model-Based Clustering}
     \label{fig:model}%
 \end{figure}
@@ -221,7 +223,7 @@ According to the figure ~\ref{fig:internal}, the internal Dunn, Silhouette and C
     \label{fig:internal}%
 \end{figure}
 
-\section{The Clustering package}\label{sec:clusteringpackage}
+\section{The \pkg{Clustering} package}\label{sec:clusteringpackage}
 
 \pkg{Clustering} package is a package that has been written entirely in R language. The package contains other \pkg{Clustering} packages that run hierarchical, partitional and agglomerative hierarchical algorithms. As an addition to the package it has been provided with the ability to read data in different formats such as CSV, KEEL, ARFF (Weka) and \texttt{data.frame} objects. Most of the methods have been provided with a set of default parameters, so we can easily run our algorithm without knowing the parameters. Later we will talk about the GUI to make the executions more attractive.
 
@@ -234,7 +236,7 @@ The main advantage of this package is that it allows to compare the most used cl
 \\
 The main class of the package is the \pkg{Clustering} object.
 \begin{itemize}
-    \item \texttt{clustering}: This object stores the results of the clustering package execution and contains the following properties:
+    \item \texttt{clustering}: This object stores the results of the \pkg{Clustering} package execution and contains the following properties:
     \begin{itemize}
         \item \texttt{result.} It represents the \texttt{data.frame} with the results. In each column we have represented the evaluation metrics used to evaluate the clusters. We can also see the execution time of these metrics, datasets, the calculated variables, the measures of dissimilarity and the algorithms.
         \item \texttt{has\_internal\_metrics.} It is a boolean operator that indicates if we have used internal evaluation measures in the calculation. It serves to indicate if we have classified the data correctly.
@@ -251,7 +253,7 @@ structure without codification and a summary with basic information about the da
 \end{itemize}
 Finally we have the plot\_clustering methods to graphically represent the evaluation measurements by clusters as well as to export the results of both internal and external measurements in latex format with the export\_external\_file and export\_internal\_file methods
 
-\subsection{Use of Clustering package}
+\subsection{Use of \pkg{Clustering} package}
 
 The fastest way to download the \pkg{Clustering} package and use it is to use the install instruction.
 
@@ -265,7 +267,7 @@ A development version is also available on the github \url{https://github.com/la
 devtools::install_github('laperez/Clustering')
 \end{verbatim}
 
-The main dependencies of the \pkg{Clustering}  package are: \pkg{advclust}, \pkg{amap}, \pkg{apcluster}, \pkg{cluster}, \pkg{ClusterR}, \pkg{gmp} and \pkg{pvclust}. These are the packages in charge of implementing the clustering algorithms. We can also find dependencies for data processing and GUI, such as shiny and DT among others. Once the package is installed it is necessary to load it in the following way:
+The main dependencies of the \pkg{Clustering}  package are: \texttt{\pkg{advclust}, \pkg{amap}, \pkg{apcluster}, \pkg{cluster}, \pkg{ClusterR}, \pkg{gmp} and \pkg{pvclust}}. These are the packages in charge of implementing the clustering algorithms. We can also find dependencies for data processing and GUI, such as shiny and DT among others. Once the package is installed it is necessary to load it in the following way:
 
 \begin{verbatim}
 library("Clustering")
@@ -279,14 +281,14 @@ For the execution of the main method of the package we must provide you with dat
 If we need to work with test data, we have pre-loaded data. The loaded datasets have been obtained from the KEEL url \url{https://sci2s.ugr.es/keel/category.php?cat=uns} in csv format.\\
 Note: that the extension is used to determine the type of file format. For reading files in csv format the default values have been used, except for the stringsAsFactors parameter which indicates how to treat the character vector.
 
-\subsection*{Analysis of clustering methods using the Clustering package}
+\subsection*{Analysis of clustering methods using the \pkg{Clustering} package}
 
 Once the way to provide the data to the clustering method has been defined, we can execute it in two ways as we have indicated above. For this example we are going to use a dataset of those provided by the package. The parameters are as follows:
 \begin{itemize}
-  \item df: is a \texttt{data.frame} type field with the data we are going to use to evaluate.
-  \item min: This is a numeric field to indicate the minimum number of clusters.
-  \item max: This is a numeric field to indicate the maximum number of clusters.
-  \item algorithm: is an array with the list of the algorithms implemented by the packages. The algorithms are: \texttt{fuzzy\_cm,fuzzy\_gg,fuzzy\_gk,hclust,apclusterK,agnes,clara,\\daisy,diana,fanny,mona,pam,gmm,kmeans\_arma,kmeans\_rcpp,mini\_kmeans,gama,pvclust}.
+  \item \texttt{df}: is a \texttt{data.frame} type field with the data we are going to use to evaluate.
+  \item \texttt{min}: This is a numeric field to indicate the minimum number of clusters.
+  \item \texttt{max}: This is a numeric field to indicate the maximum number of clusters.
+  \item \texttt{algorithm}: is an array with the list of the algorithms implemented by the packages. The algorithms are: \texttt{fuzzy\_cm,fuzzy\_gg,fuzzy\_gk,hclust,apclusterK,agnes,clara,\\daisy,diana,fanny,mona,pam,gmm,kmeans\_arma,kmeans\_rcpp,mini\_kmeans,gama,pvclust}.
 \end{itemize}
 
 We go there with the test, we use the basketball dataset, with a range of clusters [3,5], for the gmm algorithm using as external metric (entropy) and as internal metric (dunn).
@@ -365,17 +367,18 @@ Algorithm    Distance     Clusters   Dataset   timeExternal entropy   dunn  time
 
 These are the results of running the clustering method. The meaning and functionality of each column is as follows:
 \begin{itemize}
-  \item Algorithm: indicates the clustering algorithm used in the data processing.
-  \item Distance: is the measure of dissimilarity used by the algorithm to calculate the similarity between the data.
-  \item Clusters: is the number of clusters used by the algorithm. When working with clustering it is necessary to indicate the number of clusters.
-  \item Dataset: is the name of the \texttt{data.frame}. By default appears \texttt{data.frame} but if instead of using the df parameter in the clustering method we use path (directory with files with extension dat), in the column must appear the names of the processed datasets.
-  \item timeExternal: time to implement external evaluation measures.
-  \item entropy: as mentioned in the section ~\ref{sec:internalandexternalmetricssec}, is the measure in charge of measuring the uncertainty in the prediction of natural classes provided by the P partition.
-  \item dunn: is an internal evaluation measure, it is focused on measuring cohesion (how close the elements are to each other) and separation (they quantify the level of separation between clusters).
-  \item timeInternal: time taken to implement internal evaluation measures.Note: in the metric field we indicate all the measurements we wish to evaluate. The implemented metrics are: \texttt{entropy}, \texttt{recall}, \texttt{precision}, \texttt{f\_measure},\texttt{fowlkes\_mallows\_index},\texttt{connectivity},\texttt{dunn} and \texttt{silhouette}.
+  \item \texttt{Algorithm:} indicates the clustering algorithm used in the data processing.
+  \item \texttt{Distance:} is the measure of dissimilarity used by the algorithm to calculate the similarity between the data.
+  \item \texttt{Clusters:} is the number of clusters used by the algorithm. When working with clustering it is necessary to indicate the number of clusters.
+  \item \texttt{Dataset:} is the name of the \texttt{data.frame}. By default appears \texttt{data.frame} but if instead of using the df parameter in the clustering method we use path (directory with files with extension dat), in the column must appear the names of the processed datasets.
+  \item \texttt{timeExternal:} time to implement external evaluation measures.
+  \item \texttt{entropy:} as mentioned in the section ~\ref{sec:internalandexternalmetricssec}, is the measure in charge of measuring the uncertainty in the prediction of natural classes provided by the P partition.
+  \item \texttt{dunn:} is an internal evaluation measure, it is focused on measuring cohesion (how close the elements are to each other) and separation (they quantify the level of separation between clusters).
+  \item \texttt{timeInternal:} time taken to implement internal evaluation measures.\\
+Note: in the metric field we indicate all the measurements we wish to evaluate. The implemented metrics are: \texttt{entropy}, \texttt{recall}, \texttt{precision}, \texttt{f\_measure},\texttt{fowlkes\_mallows\_index},\texttt{connectivity},\texttt{dunn} and \texttt{silhouette}.
 \end{itemize}
 
-The basketball dataset containing 5 variables. The operation is to execute the same algorithm with the measurement of dissimilarity and the number of clusters for each variable.With this we intend to see if the behaviour is the same for all the variables, or if the choice of a variable influences the quality of the results. From the measures indicated we can start to evaluate the quality of the clusters. Depending on the selected metrics we can evaluate some characteristics or others.
+The basketball dataset containing five variables. The operation is to execute the same algorithm with the measurement of dissimilarity and the number of clusters for each variable.With this we intend to see if the behaviour is the same for all the variables, or if the choice of a variable influences the quality of the results. From the measures indicated we can start to evaluate the quality of the clusters. Depending on the selected metrics we can evaluate some characteristics or others.
 
 From the data we can see that the value of the variables influences the quality of the results, therefore the next step is to select those variables that provide better quality.
 
@@ -401,7 +404,7 @@ fanny      fanny_manhattan     5      dataframe    0.0202    0.2143
 \end{Soutput}
 \end{Schunk}
 
-The Clustering::best\_ranked\_external\_metrics method is responsible for obtaining the best external variables for each execution, i.e. the best results by algorithm, measure of dissimilarity and number of clusters. We perform the same calculation for internal measurements.
+The \texttt{Clustering::best\_ranked\_external\_metrics} method is responsible for obtaining the best external variables for each execution, i.e. the best results by algorithm, measure of dissimilarity and number of clusters. We perform the same calculation for internal measurements.
 
 \begin{Schunk}
 \begin{Sinput}
@@ -480,16 +483,28 @@ All these operations that we have carried out to evaluate the external measures 
 
 \begin{figure}[htbp]
   \centering
-    \subfloat{{\includegraphics[width=6.5cm]{img/entropy} }}%
+    \subfloat{{\includegraphics[width=6.5cm, height=4cm]{img/entropy} }}%
     \qquad
-    \subfloat{{\includegraphics[width=6.5cm]{img/dunn} }}%
+    \subfloat{{\includegraphics[width=6.5cm, height=4cm]{img/dunn} }}%
     \caption{Graphical representation of evaluation measures}%
     \label{fig:clustering}%
 \end{figure}
 
-\section{Graphical User Interface of the Clustering package}
+\subsection*{Post-processing of data}
 
-As mentioned throughout this paper, the Clustering package provides a GUI to work with clustering algorithms and to be able to evaluate and run the results more comfortable. The way to run the user interface is to execute the following instruction:
+To conclude the definition of the methods of the package it is always necessary to have a functionality that allows us to sort, filter the information or export the data set. To do this we will detail the methods used:
+
+\begin{itemize}
+  \item \texttt{sort(clustering\_object,column\_name):} Sometimes it is necessary to determine what the maximum or minimum value of a column is and the easiest way to do this is by sorting the column.
+  \item \texttt{"[.clustering":} There are times when we need to apply filters on a series of columns for a set of values. This process can be done using third party packages, but due to its great usefulness we have incorporated this functionality. To filter we must do it in the following way: clustering\_object [column\_1 operator value\_1 conditional\_1 .... column\_n operator value\_n]. For more detailed information you can find it in the help of the package itself.
+  \item \texttt{CLustering::export\_file\_external():} exporting the result of the clustering object to the latex format is rare and very necessary when working with table in Latex.
+  \item \texttt{Clustering::export\_file\_internal():} this method is similar to the previous one, but only exports the internal metrics.
+\end{itemize}
+
+
+\section{Graphical User Interface of the \pkg{Clustering} package}
+
+As mentioned throughout this paper, the \pkg{Clustering} package provides a GUI to work with clustering algorithms and to be able to evaluate and run the results more comfortable. The way to run the user interface is to execute the following instruction:
 
 \begin{Schunk}
 \begin{Sinput}
@@ -501,13 +516,12 @@ The execution will open our default browser with the interface. As it can be obs
 
 \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm]{img/app}
+   \includegraphics[width=14cm, height=4.5cm]{img/app}
     \caption{Clustering app user interface}
     \label{fig:layoutApp}%
 \end{figure}
 
-The operation is very simple, we can choose to work with test data or file directory, work a range of clusters, specify algorithms individually or select the algorithms contained in a package, indicate what type of measures we want to evaluate and finally we can indicate if we want to see the results calculated or translate it to the variables of the dataset.
-We will see this operation step by step.
+The operation of the application is very simple as can be seen in the Figure ~\ref{fig:layoutApp1} and we will proceed to explain it step by step.
 
 \begin{figure}[htbp]
   \centering
@@ -528,15 +542,15 @@ As you can see in the Figure ~\ref{fig:layoutApp1} we have two well differentiat
   \item Finally we have a check through which instead of showing the metric values we can show the variable number. In the image we have an example of execution with default variables.
 \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm]{img/variable_false}
+   \includegraphics[width=14cm height=0.5cm]{img/variable_false}
     \caption{Execution of the default \texttt{clustering} method}
     \label{fig:variable_false}%
 \end{figure}
 \\
-In the image ~\ref{fig:variable_true} it is the execution of the same method with variable to true.
+In the Figure ~\ref{fig:variable_true} it is the execution of the same method with variable to true.
 \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm]{img/variable_true}
+   \includegraphics[width=14cm height=0.5cm]{img/variable_true}
     \caption{Execution of the \texttt{clustering} method with variable to true}
     \label{fig:variable_true}%
 \end{figure}
@@ -545,13 +559,29 @@ Note: the variables represent the dataset variables.
 \end{itemize}
   \item In main layout we have the options to represent the data.
   \begin{itemize}
-  \item To view the data in graphical mode as shown in the Figure, we mark the Plot tab. In the figure we can see represented the internal and external evaluation metrics and depending on the type of evaluation we can filter individually by metrics to see the data represented graphically.
-  \item If we click on the summary tab we can see the data represented in tables. If you wish you can export the results in the following formats: csv,pdf and xls. If you wish you can copy the results.
-\end{itemize}
 
+    \item To view the data in graphical mode as shown in the Figure ~\ref{fig:tab_graph}, we mark the Plot tab. In the figure we can see represented the internal and external evaluation metrics and depending on the type of evaluation we can filter individually by metrics to see the data represented graphically.
+
+  \begin{figure}[htbp]
+    \centering
+     \includegraphics[width=14cm, height=8cm]{img/tab_graph}
+      \caption{Tab with graphical representation of metrics}
+      \label{fig:tab_graph}
+  \end{figure}
+
+    \item If we click on the summary tab as shown in the Figure ~\ref{fig:tab_summary}, we can see the data represented in tables. If you wish you can export the results in the following formats: csv,pdf and xls. If you wish you can copy the results.
+
+  \begin{figure}[]
+    \centering
+     \includegraphics[width=14cm, height=3cm]{img/tab_summary}
+      \caption{\pkg{Clustering} package execution summary tab}
+      \label{fig:tab_summary}
+  \end{figure}
+
+  \end{itemize}
 
 \end{enumerate}
-
+\newpage
 \section{Conclusion}
 
 In this paper we have made an introduction to the \pkg{Clustering} package. The package has dependencies with other packages as seen throughout the paper. It allows the reading and loading of datasets in KEEL, CSV or ARFF format. We also offer the functionality of loading a \texttt{data.frame} in memory or using test datasets. As a complement the package has been enhanced with the inclusion of a graphical interface that allows the user to run the package in a simple way without the need to know the parameters. The development of the package will be continued with the inclusion of new algorithms, functionalities and improvement of the interface, therefore we encourage developers to contribute to the improvement of the package with the inclusion of new algorithms or functionalities or the inclusion of new proposals that complement the package.
