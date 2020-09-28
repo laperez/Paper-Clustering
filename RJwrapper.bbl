@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -25,6 +25,13 @@ M.~J. Berry and G.~S. Linoff.
 \newblock \emph{Data mining techniques: for marketing, sales, and customer
   relationship management}.
 \newblock John Wiley \& Sons, 2004.
+
+\bibitem[Charte et~al.(2016)Charte, Vico, González, Carmona, and
+  Del~Jesus]{b55}
+F.~Charte, A.~M. Vico, P.~González, C.~J. Carmona, and M.~J. Del~Jesus.
+\newblock Subgroup discovery with evolutionary fuzzy systems in r: The sdefsr
+  package.
+\newblock \emph{The R Journal}, 8:\penalty0 307--323, 01 2016.
 
 \bibitem[Dang(2011)]{b30}
 S.~Dang.
@@ -62,6 +69,11 @@ B.~J. Frey and D.~Dueck.
 \newblock ISSN 0036-8075.
 \newblock \doi{10.1126/science.1136800}.
 \newblock URL \url{https://science.sciencemag.org/content/315/5814/972}.
+
+\bibitem[Gan et~al.(2007)Gan, Ma, and Wu]{b56}
+G.~Gan, C.~Ma, and J.~Wu.
+\newblock Data clustering - theory, algorithms, and applications.
+\newblock 2007.
 
 \bibitem[Guha et~al.(1998)Guha, Rastogi, and Shim]{b20}
 S.~Guha, R.~Rastogi, and K.~Shim.
@@ -107,13 +119,32 @@ J.~Z. Huang.
   sets in data mining.
 \newblock In \emph{DMKD}, 1997.
 
-\bibitem[Jain et~al.(1999)Jain, Murty, and Flynn]{b19}
+\bibitem[Irani et~al.(2016)Irani, Pise, and Phatak]{b59}
+J.~A. Irani, N.~Pise, and M.~Phatak.
+\newblock Clustering techniques and the similarity measures used in clustering:
+  A survey.
+\newblock \emph{International Journal of Computer Applications}, 134:\penalty0
+  9--14, 2016.
+
+\bibitem[Jain et~al.(1999{\natexlab{a}})Jain, Murty, and Flynn]{b19}
 A.~K. Jain, M.~N. Murty, and P.~J. Flynn.
 \newblock Data clustering: A review.
 \newblock \emph{ACM Comput. Surv.}, 31\penalty0 (3):\penalty0 264–323, Sept.
-  1999.
+  1999{\natexlab{a}}.
 \newblock ISSN 0360-0300.
 \newblock \doi{10.1145/331499.331504}.
+
+\bibitem[Jain et~al.(1999{\natexlab{b}})Jain, Murty, and Flynn]{b57}
+A.~K. Jain, M.~N. Murty, and P.~J. Flynn.
+\newblock Data clustering: A review.
+\newblock 31\penalty0 (3), 1999{\natexlab{b}}.
+\newblock ISSN 0360-0300.
+
+\bibitem[Johnson and Wichern(1998)]{b60}
+R.~A. Johnson and D.~W. Wichern.
+\newblock {Clustering, Distance Methods and Ordination}.
+\newblock \emph{Applied Multivariate Statistical Analysis}, pages 729--799,
+  1998.
 
 \bibitem[Kacprzyk and Farhaoui(2019)]{b41}
 J.~Kacprzyk and Y.~Farhaoui.
@@ -324,12 +355,6 @@ A.~Thalamuthu, I.~Mukhopadhyay, X.~Zheng, and G.~C. Tseng.
 \newblock \emph{Bioinformatics}, 22\penalty0 (19):\penalty0 2405--2412, 07
   2006.
 
-\bibitem[Vico et~al.(2016)Vico, Charte, González, Carmona, and Del~Jesus]{b55}
-A.~M. Vico, F.~Charte, P.~González, C.~J. Carmona, and M.~J. Del~Jesus.
-\newblock Subgroup discovery with evolutionary fuzzy systems in r: The sdefsr
-  package.
-\newblock \emph{The R Journal}, 8:\penalty0 307--323, 01 2016.
-
 \bibitem[Vlegels and Lievens(2017)]{b5}
 J.~Vlegels and J.~Lievens.
 \newblock Music classification, genres, and taste patterns: A ground-up network
@@ -343,6 +368,13 @@ Y.~Wang and H.~Y. Youn.
   for twitter sentiment analysis.
 \newblock \emph{Applied Sciences}, 9\penalty0 (1):\penalty0 92, 2018.
 \newblock ISSN 2076-3417.
+
+\bibitem[Xu and Wunsch(2005)]{b58}
+R.~Xu and D.~Wunsch.
+\newblock {Survey of Clustering Algorithms}.
+\newblock \emph{IEEE TRANSACTIONS ON NEURAL NETWORKS}, 16\penalty0 (3), 2005.
+\newblock \doi{10.1109/TNN.2005.845141}.
+\newblock URL \url{http://axon.cs.byu.edu/Dan/678/papers/Cluster/Xu.pdf}.
 
 \bibitem[Xuecheng(2010)]{b32}
 L.~Y.~L. Xuecheng.

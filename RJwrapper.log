@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  31 AUG 2020 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  28 SEP 2020 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,27 +904,27 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 (./RJwrapper.aux)
 \openout1 = `RJwrapper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 12.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 11.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 12.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -995,7 +995,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 11.
+LaTeX Info: Redefining \microtypecontext on input line 12.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1013,8 +1013,8 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 \AtBeginShipoutBox=\box44
-Package backref Info: ** backref set up for natbib ** on input line 11.
-Package hyperref Info: Link coloring ON on input line 11.
+Package backref Info: ** backref set up for natbib ** on input line 12.
+Package hyperref Info: Link coloring ON on input line 12.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1024,9 +1024,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
 
 (./RJwrapper.out) (./RJwrapper.out)
 \@outlinefile=\write5
@@ -1061,61 +1061,56 @@ LaTeX Font Info:    Try loading font information for TS1+ppl on input line 36.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-<img/hierarchical.png, id=121, 155.1396pt x 81.4242pt>
-File: img/hierarchical.png Graphic file (type png)
-<use img/hierarchical.png>
-Package pdftex.def Info: img/hierarchical.png  used on input line 40.
-(pdftex.def)             Requested size: 398.37274pt x 142.2671pt.
-<img/partitional.png, id=133, 717.68124pt x 445.665pt>
+<img/hierarchical.pdf, id=119, 1011.78pt x 361.35pt>
+File: img/hierarchical.pdf Graphic file (type pdf)
+<use img/hierarchical.pdf>
+Package pdftex.def Info: img/hierarchical.pdf  used on input line 39.
+(pdftex.def)             Requested size: 398.34416pt x 128.03477pt.
+<img/partitional.png, id=131, 717.68124pt x 445.665pt>
 File: img/partitional.png Graphic file (type png)
 <use img/partitional.png>
 Package pdftex.def Info: img/partitional.png  used on input line 49.
-(pdftex.def)             Requested size: 398.35066pt x 142.26208pt.
+(pdftex.def)             Requested size: 398.35066pt x 128.03589pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--55
+Underfull \hbox (badness 10000) in paragraph at lines 43--54
 
  []
 
 <img/density.png, id=138, 661.47125pt x 348.30125pt>
 File: img/density.png Graphic file (type png)
 <use img/density.png>
-Package pdftex.def Info: img/density.png  used on input line 58.
+Package pdftex.def Info: img/density.png  used on input line 57.
 (pdftex.def)             Requested size: 398.32915pt x 142.26234pt.
-[2 <./img/hierarchical.png>]
-<img/model.png, id=170, 686.565pt x 368.37625pt>
+[2 <./img/hierarchical.pdf>]
+<img/model.png, id=173, 686.565pt x 368.37625pt>
 File: img/model.png Graphic file (type png)
 <use img/model.png>
-Package pdftex.def Info: img/model.png  used on input line 66.
+Package pdftex.def Info: img/model.png  used on input line 65.
 (pdftex.def)             Requested size: 398.3337pt x 128.03426pt.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 73.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 74.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 73.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 74.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 73.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 74.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 73.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 73.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -1126,49 +1121,59 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 74.
+(Font)              scaled to size 9.37807pt on input line 73.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 74.
+(Font)              scaled to size 7.29405pt on input line 73.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 74.
+(Font)              scaled to size 5.21004pt on input line 73.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 74.
+(Font)              scaled to size 9.37807pt on input line 73.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 74.
+(Font)              scaled to size 7.29405pt on input line 73.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 74.
- [3 <./img/partitional.png> <./img/density.png> <./img/model.png>] [4] [5]
-<img/external.png, id=252, 379.4175pt x 616.3025pt>
+(Font)              scaled to size 5.21004pt on input line 73.
+ [3 <./img/partitional.png> <./img/density.png> <./img/model.png>] [4]
+<img/separation.png, id=239, 576.1525pt x 384.43625pt>
+File: img/separation.png Graphic file (type png)
+<use img/separation.png>
+Package pdftex.def Info: img/separation.png  used on input line 132.
+(pdftex.def)             Requested size: 398.35445pt x 170.71869pt.
+
+Overfull \hbox (2.51587pt too wide) in paragraph at lines 132--133
+ [][] 
+ []
+
+[5 <./img/separation.png>] [6]
+<img/external.png, id=302, 379.4175pt x 616.3025pt>
 File: img/external.png Graphic file (type png)
 <use img/external.png>
-Package pdftex.def Info: img/external.png  used on input line 196.
+Package pdftex.def Info: img/external.png  used on input line 203.
 (pdftex.def)             Requested size: 184.94357pt x 170.71092pt.
- [6]
-<img/cohesion.png, id=281, 434.62375pt x 158.5925pt>
+<img/cohesion.png, id=314, 434.62375pt x 158.5925pt>
 File: img/cohesion.png Graphic file (type png)
 <use img/cohesion.png>
-Package pdftex.def Info: img/cohesion.png  used on input line 212.
-(pdftex.def)             Requested size: 184.9429pt x 67.48682pt.
-<img/internal.png, id=287, 490.83376pt x 212.795pt>
+Package pdftex.def Info: img/cohesion.png  used on input line 219.
+(pdftex.def)             Requested size: 241.85568pt x 113.81383pt.
+<img/internal.png, id=320, 490.83376pt x 212.795pt>
 File: img/internal.png Graphic file (type png)
 <use img/internal.png>
-Package pdftex.def Info: img/internal.png  used on input line 221.
+Package pdftex.def Info: img/internal.png  used on input line 228.
 (pdftex.def)             Requested size: 184.9429pt x 80.17781pt.
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 228.
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 234.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.18004pt on input line 228.
+(Font)              scaled to size 9.18004pt on input line 234.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1179,112 +1184,110 @@ Package microtype Info: Character `textendash ' is missing
 Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/zi4/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
- [7 <./img/external.png> <./img/cohesion.png> <./img/internal.png>]
-LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 268.
+ [7 <./img/external.png> <./img/cohesion.png>]
+Overfull \hbox (4.89539pt too wide) in paragraph at lines 239--240
+[]\T1/ppl/m/n/9 (-20) Hierarchical Clus-ter-ing: \T1/zi4/m/n/9 agnes, clara, da
+isy, diana, fanny, fuzzy_cm, fuzzy_gk, fuzzy_gg,
+ []
+
+[8 <./img/internal.png>]
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 279.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 9.18004pt on input line 268.
+(Font)              scaled to size 9.18004pt on input line 279.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [8]
-[9] [10]
-Overfull \hbox (4.45195pt too wide) in paragraph at lines 377--379
-\T1/ppl/m/n/9 (-20) met-rics are: \T1/zi4/m/n/9 entropy\T1/ppl/m/n/9 (-20) , \T
-1/zi4/m/n/9 recall\T1/ppl/m/n/9 (-20) , \T1/zi4/m/n/9 precision\T1/ppl/m/n/9 (-
-20) , \T1/zi4/m/n/9 f_measure\T1/ppl/m/n/9 (-20) ,\T1/zi4/m/n/9 fowlkes_mallows
-_index\T1/ppl/m/n/9 (-20) ,\T1/zi4/m/n/9 connectivity\T1/ppl/m/n/9 (-20) ,\T1/z
-i4/m/n/9 dunn
+ [9]
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+
  []
 
-[11]
-<img/entropy.png, id=331, 599.23875pt x 439.6425pt>
+[12]
+<img/entropy.png, id=369, 599.23875pt x 439.6425pt>
 File: img/entropy.png Graphic file (type png)
 <use img/entropy.png>
-Package pdftex.def Info: img/entropy.png  used on input line 486.
+Package pdftex.def Info: img/entropy.png  used on input line 499.
 (pdftex.def)             Requested size: 184.93916pt x 113.80792pt.
-<img/dunn.png, id=332, 599.23875pt x 439.6425pt>
+<img/dunn.png, id=370, 599.23875pt x 439.6425pt>
 File: img/dunn.png Graphic file (type png)
 <use img/dunn.png>
-Package pdftex.def Info: img/dunn.png  used on input line 488.
+Package pdftex.def Info: img/dunn.png  used on input line 501.
 (pdftex.def)             Requested size: 184.93916pt x 113.80792pt.
- [12 <./img/entropy.png> <./img/dunn.png>]
-<img/app.png, id=343, 1407.2575pt x 733.74126pt>
+ [13 <./img/entropy.png> <./img/dunn.png>]
+<img/app.png, id=382, 1397.22pt x 724.7075pt>
 File: img/app.png Graphic file (type png)
 <use img/app.png>
-Package pdftex.def Info: img/app.png  used on input line 519.
-(pdftex.def)             Requested size: 398.32402pt x 128.03717pt.
-<img/app1.png, id=345, 1396.21625pt x 719.68875pt>
+Package pdftex.def Info: img/app.png  used on input line 572.
+(pdftex.def)             Requested size: 398.33977pt x 256.07315pt.
+<img/app1.png, id=384, 1396.21625pt x 719.68875pt>
 File: img/app1.png Graphic file (type png)
 <use img/app1.png>
-Package pdftex.def Info: img/app1.png  used on input line 528.
-(pdftex.def)             Requested size: 398.33858pt x 205.32207pt.
- [13 <./img/app.png> <./img/app1.png>]
-<img/variable_false.png, id=357, 691.58376pt x 37.13875pt>
+Package pdftex.def Info: img/app1.png  used on input line 581.
+(pdftex.def)             Requested size: 398.33055pt x 256.07881pt.
+ [14] [15 <./img/app.png> <./img/app1.png>]
+<img/variable_false.png, id=399, 691.58376pt x 37.13875pt>
 File: img/variable_false.png Graphic file (type png)
 <use img/variable_false.png>
-Package pdftex.def Info: img/variable_false.png  used on input line 545.
-(pdftex.def)             Requested size: 398.33858pt x 21.39145pt.
-
-Overfull \hbox (55.19269pt too wide) in paragraph at lines 545--546
- []\T1/ppl/m/n/10 (-20) heightheight[] 
- []
-
-<img/variable_true.png, id=359, 676.5275pt x 38.1425pt>
+Package pdftex.def Info: img/variable_false.png  used on input line 598.
+(pdftex.def)             Requested size: 398.34349pt x 14.2262pt.
+<img/variable_true.png, id=401, 676.5275pt x 38.1425pt>
 File: img/variable_true.png Graphic file (type png)
 <use img/variable_true.png>
-Package pdftex.def Info: img/variable_true.png  used on input line 553.
-(pdftex.def)             Requested size: 398.33858pt x 22.45905pt.
+Package pdftex.def Info: img/variable_true.png  used on input line 606.
+(pdftex.def)             Requested size: 398.35289pt x 14.22656pt.
 
-Overfull \hbox (55.19269pt too wide) in paragraph at lines 553--554
- []\T1/ppl/m/n/10 (-20) heightheight[] 
+Overfull \hbox (7.16316pt too wide) in paragraph at lines 595--612
+\T1/ppl/m/n/9 (-20) These vari-ables are trans-lated into whole num-bers from l
+eft to right, i.e. \T1/zi4/m/n/9 assists_per_minute
  []
 
-<img/tab_graph.png, id=361, 951.555pt x 696.6025pt>
+<img/tab_graph.png, id=403, 951.555pt x 696.6025pt>
 File: img/tab_graph.png Graphic file (type png)
 <use img/tab_graph.png>
-Package pdftex.def Info: img/tab_graph.png  used on input line 567.
+Package pdftex.def Info: img/tab_graph.png  used on input line 620.
 (pdftex.def)             Requested size: 398.34361pt x 227.6155pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 574.
+               Default added (so using `tbp') on input line 627.
 
-<img/tab_summary.png, id=363, 940.51375pt x 361.35pt>
+<img/tab_summary.png, id=405, 940.51375pt x 361.35pt>
 File: img/tab_summary.png Graphic file (type png)
 <use img/tab_summary.png>
-Package pdftex.def Info: img/tab_summary.png  used on input line 576.
+Package pdftex.def Info: img/tab_summary.png  used on input line 629.
 (pdftex.def)             Requested size: 398.34253pt x 85.35835pt.
-[14 <./img/variable_false.png> <./img/variable_true.png> <./img/tab_graph.png>]
+[16 <./img/variable_false.png> <./img/variable_true.png> <./img/tab_graph.png>]
 (./RJwrapper.bbl (./RJwrapper.brf)
 \tf@brf=\write6
 \openout6 = `RJwrapper.brf'.
 
- [15 <./img/tab_summary.png>] [16]) [17])
-[18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
+ [17 <./img/tab_summary.png>] [18]) [19])
+[20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
  (./RJwrapper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
 Package rerunfilecheck Info: File `RJwrapper.out' has not changed.
 (rerunfilecheck)             Checksum: 2D36FBEE38CCE8C161AEDF722C882417;558.
 Package rerunfilecheck Info: File `RJwrapper.brf' has not changed.
-(rerunfilecheck)             Checksum: C3D7F4D45CEC8BB3F762FEE078C09C6C;2280.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 25.
+(rerunfilecheck)             Checksum: A4ED2F3B99C44DD71E4870225001EB64;2535.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 22398 strings out of 492649
- 399273 string characters out of 6129622
- 506345 words of memory out of 5000000
- 25495 multiletter control sequences out of 15000+600000
- 46007 words of font info for 208 fonts, out of 8000000 for 9000
+ 22458 strings out of 492649
+ 399907 string characters out of 6129622
+ 506642 words of memory out of 5000000
+ 25530 multiletter control sequences out of 15000+600000
+ 46696 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,94p,1284b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,94p,2104b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/
 usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/usr
 /local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/
@@ -1297,10 +1300,10 @@ live/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on RJwrapper.pdf (18 pages, 553068 bytes).
+Output written on RJwrapper.pdf (20 pages, 598360 bytes).
 PDF statistics:
- 531 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 118 named destinations out of 1000 (max. 500000)
- 31376 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 508 compressed objects within 6 object streams
+ 128 named destinations out of 1000 (max. 500000)
+ 31381 words of extra memory for PDF output out of 35830 (max. 10000000)
 
