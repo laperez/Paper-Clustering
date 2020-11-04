@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  29 SEP 2020 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  1 NOV 2020 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -901,47 +901,113 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip66
 \sf@bottom=\skip67
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count153
+\LTcapwidth=\dimen258
+\LT@head=\box43
+\LT@firsthead=\box44
+\LT@foot=\box45
+\LT@lastfoot=\box46
+\LT@cols=\count154
+\LT@rows=\count155
+\c@LT@tables=\count156
+\c@LT@chunks=\count157
+\LT@p@ftn=\toks42
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box47
+)
+\tc@llx=\dimen259
+\tc@lly=\dimen260
+\tc@urx=\dimen261
+\tc@ury=\dimen262
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen263
+\adjbox@Height=\dimen264
+\adjbox@Depth=\dimen265
+\adjbox@Totalheight=\dimen266
+\adjbox@pwidth=\dimen267
+\adjbox@pheight=\dimen268
+\adjbox@pdepth=\dimen269
+\adjbox@ptotalheight=\dimen270
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count158
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box48
+\sift@deathcycles=\count159
+\@vwid@loff=\dimen271
+\@vwid@roff=\dimen272
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks43
+\minrowclearance=\skip72
+)
 (./RJwrapper.aux)
 \openout1 = `RJwrapper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 12.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 16.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 ABD: EveryShipout initializing macros
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count153
-\scratchdimen=\dimen258
-\scratchbox=\box43
-\nofMPsegments=\count154
-\nofMParguments=\count155
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count156
-\MPscratchDim=\dimen259
-\MPnumerator=\count157
-\makeMPintoPDFobject=\count158
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count160
+\scratchdimen=\dimen273
+\scratchbox=\box49
+\nofMPsegments=\count161
+\nofMParguments=\count162
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count163
+\MPscratchDim=\dimen274
+\MPnumerator=\count164
+\makeMPintoPDFobject=\count165
+\everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -995,7 +1061,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 12.
+LaTeX Info: Redefining \microtypecontext on input line 16.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1012,9 +1078,9 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-\AtBeginShipoutBox=\box44
-Package backref Info: ** backref set up for natbib ** on input line 12.
-Package hyperref Info: Link coloring ON on input line 12.
+\AtBeginShipoutBox=\box50
+Package backref Info: ** backref set up for natbib ** on input line 16.
+Package hyperref Info: Link coloring ON on input line 16.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1022,11 +1088,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count159
+\c@section@level=\count166
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./RJwrapper.out) (./RJwrapper.out)
 \@outlinefile=\write5
@@ -1034,8 +1100,14 @@ LaTeX Info: Redefining \nameref on input line 12.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
- (./RJtemplate.tex
+
+(./RJtemplate.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
@@ -1065,28 +1137,32 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 File: img/hierarchical.pdf Graphic file (type pdf)
 <use img/hierarchical.pdf>
 Package pdftex.def Info: img/hierarchical.pdf  used on input line 40.
-(pdftex.def)             Requested size: 398.34416pt x 128.03477pt.
-<img/partitional.png, id=163, 717.68124pt x 445.665pt>
-File: img/partitional.png Graphic file (type png)
-<use img/partitional.png>
-Package pdftex.def Info: img/partitional.png  used on input line 50.
-(pdftex.def)             Requested size: 398.35066pt x 128.03589pt.
+(pdftex.def)             Requested size: 358.49739pt x 141.69234pt.
+<img/partitional.pdf, id=163, 433.62pt x 216.81pt>
+File: img/partitional.pdf Graphic file (type pdf)
+<use img/partitional.pdf>
+Package pdftex.def Info: img/partitional.pdf  used on input line 50.
+(pdftex.def)             Requested size: 378.43733pt x 141.69565pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--55
 
  []
 
-<img/density.png, id=170, 661.47125pt x 348.30125pt>
-File: img/density.png Graphic file (type png)
-<use img/density.png>
-Package pdftex.def Info: img/density.png  used on input line 58.
-(pdftex.def)             Requested size: 398.32915pt x 142.26234pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/density.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/density.pdf, id=169, 496.10344pt x 261.22594pt>
+File: img/density.pdf Graphic file (type pdf)
+<use img/density.pdf>
+Package pdftex.def Info: img/density.pdf  used on input line 58.
+(pdftex.def)             Requested size: 358.50378pt x 141.69366pt.
 [2 <./img/hierarchical.pdf>]
-<img/model.png, id=206, 686.565pt x 368.37625pt>
-File: img/model.png Graphic file (type png)
-<use img/model.png>
-Package pdftex.def Info: img/model.png  used on input line 66.
-(pdftex.def)             Requested size: 398.3337pt x 128.03426pt.
+<img/model.pdf, id=205, 522.95375pt x 361.35pt>
+File: img/model.pdf Graphic file (type pdf)
+<use img/model.pdf>
+Package pdftex.def Info: img/model.pdf  used on input line 66.
+(pdftex.def)             Requested size: 358.50842pt x 141.69234pt.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 74.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -1140,40 +1216,34 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 74.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 74.
- [3 <./img/partitional.png> <./img/density.png> <./img/model.png>] [4]
-<img/separation.png, id=272, 576.1525pt x 384.43625pt>
+ [3 <./img/partitional.pdf> <./img/density.pdf> <./img/model.pdf>] [4]
+<img/separation.png, id=289, 715.67375pt x 453.695pt>
 File: img/separation.png Graphic file (type png)
 <use img/separation.png>
 Package pdftex.def Info: img/separation.png  used on input line 137.
-(pdftex.def)             Requested size: 398.35445pt x 170.71869pt.
-
-Overfull \hbox (2.51587pt too wide) in paragraph at lines 137--138
- [][] 
- []
-
-[5 <./img/separation.png>] [6]
-<img/external.png, id=335, 379.4175pt x 616.3025pt>
+(pdftex.def)             Requested size: 284.52809pt x 170.71672pt.
+ [5 <./img/separation.png>] [6]
+<img/external.png, id=360, 536.0025pt x 877.2775pt>
 File: img/external.png Graphic file (type png)
 <use img/external.png>
-Package pdftex.def Info: img/external.png  used on input line 208.
-(pdftex.def)             Requested size: 184.94357pt x 170.71092pt.
-<img/cohesion.png, id=347, 434.62375pt x 158.5925pt>
+Package pdftex.def Info: img/external.png  used on input line 205.
+(pdftex.def)             Requested size: 284.52162pt x 284.52281pt.
+<img/cohesion.png, id=372, 434.62375pt x 158.5925pt>
 File: img/cohesion.png Graphic file (type png)
 <use img/cohesion.png>
-Package pdftex.def Info: img/cohesion.png  used on input line 224.
-(pdftex.def)             Requested size: 241.85568pt x 113.81383pt.
-<img/internal.png, id=353, 490.83376pt x 212.795pt>
+Package pdftex.def Info: img/cohesion.png  used on input line 221.
+(pdftex.def)             Requested size: 241.84842pt x 88.25217pt.
+<img/internal.png, id=378, 490.83376pt x 212.795pt>
 File: img/internal.png Graphic file (type png)
 <use img/internal.png>
-Package pdftex.def Info: img/internal.png  used on input line 233.
+Package pdftex.def Info: img/internal.png  used on input line 230.
 (pdftex.def)             Requested size: 184.9429pt x 80.17781pt.
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 239.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 236.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.18004pt on input line 239.
+(Font)              scaled to size 9.18004pt on input line 236.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1184,126 +1254,2528 @@ Package microtype Info: Character `textendash ' is missing
 Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `T1/zi4/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
- [7 <./img/external.png>]
-Overfull \hbox (4.89539pt too wide) in paragraph at lines 244--245
+
+[7 <./img/external.png>]
+Overfull \hbox (4.89539pt too wide) in paragraph at lines 241--242
 []\T1/ppl/m/n/9 (-20) Hierarchical Clus-ter-ing: \T1/zi4/m/n/9 agnes, clara, da
 isy, diana, fanny, fuzzy_cm, fuzzy_gk, fuzzy_gg,
  []
 
 [8 <./img/cohesion.png> <./img/internal.png>]
-LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 284.
+Overfull \hbox (13.40482pt too wide) in paragraph at lines 270--272
+\T1/ppl/m/n/9 (-20) the re-sults of the eval-u-a-tion met-rics by al-go-rithm i
+s \T1/zi4/m/n/9 evaluate_validation_external_by_metrics()\T1/ppl/m/n/9 (-20) .
+ []
 
+[9]
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 291.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 9.18004pt on input line 284.
+(Font)              scaled to size 9.18004pt on input line 291.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [9]
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
+Overfull \hbox (1.75327pt too wide) in paragraph at lines 318--319
+\T1/zi4/m/n/9 precision,recall,f_measure,fowlkes_mallows_index,connectivity,dun
+n,silhouette\T1/ppl/m/n/9 (-20) . This
+ []
+
+[10]
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 335--335
+[]|\T1/ppl/m/n/7 Algorithm| 
+ []
+
+
+Overfull \hbox (5.63976pt too wide) in paragraph at lines 335--335
+[]|\T1/ppl/m/n/7 Clusters| 
+ []
+
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 335.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 335.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 335.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 335.
+
+Overfull \hbox (5.77454pt too wide) in paragraph at lines 335--335
+[]|\T1/ppl/m/n/7 entropy| 
+ []
+
+
+Overfull \hbox (2.41946pt too wide) in paragraph at lines 335--335
+[]|\T1/ppl/m/n/7 dunn| 
+ []
+
+
+Overfull \hbox (3.54454pt too wide) in paragraph at lines 335--335
+[]|\T1/ppl/m/n/7 tEAttr
+ []
+
+
+Overfull \hbox (4.41252pt too wide) in paragraph at lines 335--335
+[]|\T1/ppl/m/n/7 enAttr
+ []
+
+
+Overfull \hbox (4.0608pt too wide) in paragraph at lines 335--335
+[]|\T1/ppl/m/n/7 duAttr
+ []
+
+
+Overfull \hbox (3.04927pt too wide) in paragraph at lines 335--336
+[]|\T1/ppl/m/n/7 tIAttr
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 337--337
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 337--337
+[]|\T1/ppl/m/n/7 0.0042| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 337--337
+[]|\T1/ppl/m/n/7 0.2374| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 337--337
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 337--337
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 338--338
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 338--338
+[]|\T1/ppl/m/n/7 0.0046| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 338--338
+[]|\T1/ppl/m/n/7 0.2120| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 338--338
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 338--338
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 339--339
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 339--339
+[]|\T1/ppl/m/n/7 0.0079| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 339--339
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 339--339
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 339--339
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 340--340
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 340--340
+[]|\T1/ppl/m/n/7 0.0081| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 340--340
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 340--340
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 340--340
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 341--341
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 341--341
+[]|\T1/ppl/m/n/7 0.0089| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 341--341
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 341--341
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 341--341
+[]|\T1/ppl/m/n/7 0.0006| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 343--343
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 343--343
+[]|\T1/ppl/m/n/7 0.0041| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 343--343
+[]|\T1/ppl/m/n/7 0.3734| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 343--343
+[]|\T1/ppl/m/n/7 0.1233| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 343--343
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 344--344
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 344--344
+[]|\T1/ppl/m/n/7 0.0041| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 344--344
+[]|\T1/ppl/m/n/7 0.2983| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 344--344
+[]|\T1/ppl/m/n/7 0.1233| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 344--344
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 345--345
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 345--345
+[]|\T1/ppl/m/n/7 0.0071| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 345--345
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 345--345
+[]|\T1/ppl/m/n/7 0.1233| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 345--345
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 346--346
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 346--346
+[]|\T1/ppl/m/n/7 0.0071| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 346--346
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 346--346
+[]|\T1/ppl/m/n/7 0.1233| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 346--346
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 347--347
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 347--347
+[]|\T1/ppl/m/n/7 0.0193| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 347--347
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 347--347
+[]|\T1/ppl/m/n/7 0.1233| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 347--347
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 349--349
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 349--349
+[]|\T1/ppl/m/n/7 0.0044| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 349--349
+[]|\T1/ppl/m/n/7 0.4175| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 349--349
+[]|\T1/ppl/m/n/7 0.1619| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 349--349
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 350--350
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 350--350
+[]|\T1/ppl/m/n/7 0.0045| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 350--350
+[]|\T1/ppl/m/n/7 0.3857| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 350--350
+[]|\T1/ppl/m/n/7 0.1619| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 350--350
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 351--351
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 351--351
+[]|\T1/ppl/m/n/7 0.0079| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 351--351
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 351--351
+[]|\T1/ppl/m/n/7 0.1619| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 351--351
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 352--352
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 352--352
+[]|\T1/ppl/m/n/7 0.0079| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 352--352
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 352--352
+[]|\T1/ppl/m/n/7 0.1619| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 352--352
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 353--353
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 353--353
+[]|\T1/ppl/m/n/7 0.0091| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 353--353
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 353--353
+[]|\T1/ppl/m/n/7 0.1619| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 353--353
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 355--355
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 355--355
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 355--355
+[]|\T1/ppl/m/n/7 0.0030| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 355--355
+[]|\T1/ppl/m/n/7 0.2498| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 355--355
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 355--355
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 356--356
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 356--356
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 356--356
+[]|\T1/ppl/m/n/7 0.0036| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 356--356
+[]|\T1/ppl/m/n/7 0.2201| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 356--356
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 356--356
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 357--357
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 357--357
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 357--357
+[]|\T1/ppl/m/n/7 0.0067| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 357--357
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 357--357
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 357--357
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 358--358
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 358--358
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 358--358
+[]|\T1/ppl/m/n/7 0.0073| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 358--358
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 358--358
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 358--358
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 359
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 359--359
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 359--359
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 359--359
+[]|\T1/ppl/m/n/7 0.0075| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 359--359
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 359--359
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 359--359
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 361--361
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 361--361
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 361--361
+[]|\T1/ppl/m/n/7 0.0034| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 361--361
+[]|\T1/ppl/m/n/7 0.3563| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 361--361
+[]|\T1/ppl/m/n/7 0.1179| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 361--361
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 362--362
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 362--362
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 362--362
+[]|\T1/ppl/m/n/7 0.0049| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 362--362
+[]|\T1/ppl/m/n/7 0.2919| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 362--362
+[]|\T1/ppl/m/n/7 0.1179| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 362--362
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 363--363
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 363--363
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 363--363
+[]|\T1/ppl/m/n/7 0.0068| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 363--363
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 363--363
+[]|\T1/ppl/m/n/7 0.1179| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 363--363
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 364--364
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 364--364
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 364--364
+[]|\T1/ppl/m/n/7 0.0073| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 364--364
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 364--364
+[]|\T1/ppl/m/n/7 0.1179| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 364--364
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 365--365
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 365--365
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 365--365
+[]|\T1/ppl/m/n/7 0.0076| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 365--365
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 365--365
+[]|\T1/ppl/m/n/7 0.1179| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 365--365
+[]|\T1/ppl/m/n/7 0.0007| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 367--367
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 367--367
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 367--367
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 367--367
+[]|\T1/ppl/m/n/7 0.4290| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 367--367
+[]|\T1/ppl/m/n/7 0.1141| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 367--367
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 368--368
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 368--368
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 368--368
+[]|\T1/ppl/m/n/7 0.0036| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 368--368
+[]|\T1/ppl/m/n/7 0.3887| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 368--368
+[]|\T1/ppl/m/n/7 0.1141| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 368--368
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 369--369
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 369--369
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 369--369
+[]|\T1/ppl/m/n/7 0.0072| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 369--369
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 369--369
+[]|\T1/ppl/m/n/7 0.1141| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 369--369
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 370--370
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 370--370
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 370--370
+[]|\T1/ppl/m/n/7 0.0079| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 370--370
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 370--370
+[]|\T1/ppl/m/n/7 0.1141| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 370--370
+[]|\T1/ppl/m/n/7 0.0007| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 371--371
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 371--371
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 371--371
+[]|\T1/ppl/m/n/7 0.0084| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 371--371
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 371--371
+[]|\T1/ppl/m/n/7 0.1141| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 371--371
+[]|\T1/ppl/m/n/7 0.0011| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 373--373
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 373--373
+[]|\T1/ppl/m/n/7 0.0107| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 373--373
+[]|\T1/ppl/m/n/7 0.2069| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 373--373
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 373--373
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 374--374
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 374--374
+[]|\T1/ppl/m/n/7 0.0114| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 374--374
+[]|\T1/ppl/m/n/7 0.1675| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 374--374
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 374--374
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 375--375
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 375--375
+[]|\T1/ppl/m/n/7 0.0140| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 375--375
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 375--375
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 375--375
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 376--376
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 376--376
+[]|\T1/ppl/m/n/7 0.0159| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 376--376
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 376--376
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 376--376
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 377--377
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 377--377
+[]|\T1/ppl/m/n/7 0.0161| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 377--377
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 377--377
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 377--377
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 379--379
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 379--379
+[]|\T1/ppl/m/n/7 0.0123| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 379--379
+[]|\T1/ppl/m/n/7 0.2069| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 379--379
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 379--379
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 380--380
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 380--380
+[]|\T1/ppl/m/n/7 0.0128| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 380--380
+[]|\T1/ppl/m/n/7 0.1675| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 380--380
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 380--380
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 381--381
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 381--381
+[]|\T1/ppl/m/n/7 0.0157| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 381--381
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 381--381
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 381--381
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 382--382
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 382--382
+[]|\T1/ppl/m/n/7 0.0157| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 382--382
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 382--382
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 382--382
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 383--383
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 383--383
+[]|\T1/ppl/m/n/7 0.0178| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 383--383
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 383--383
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 383--383
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 385--385
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 385--385
+[]|\T1/ppl/m/n/7 0.0167| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 385--385
+[]|\T1/ppl/m/n/7 0.2069| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 385--385
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 385--385
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 386--386
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 386--386
+[]|\T1/ppl/m/n/7 0.0189| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 386--386
+[]|\T1/ppl/m/n/7 0.1675| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 386--386
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 386--386
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 387--387
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 387--387
+[]|\T1/ppl/m/n/7 0.0219| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 387--387
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 387--387
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 387--387
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 388--388
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 388--388
+[]|\T1/ppl/m/n/7 0.0272| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 388--388
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 388--388
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 388--388
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 389--389
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 389--389
+[]|\T1/ppl/m/n/7 0.0286| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 389--389
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 389--389
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 389--389
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 391--391
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 391--391
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 391--391
+[]|\T1/ppl/m/n/7 0.0165| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 391--391
+[]|\T1/ppl/m/n/7 0.2143| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 391--391
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 391--391
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 392--392
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 392--392
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 392--392
+[]|\T1/ppl/m/n/7 0.0184| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 392--392
+[]|\T1/ppl/m/n/7 0.1658| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 392--392
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 392--392
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 393--393
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 393--393
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 393--393
+[]|\T1/ppl/m/n/7 0.0196| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 393--393
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 393--393
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 393--393
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 394--394
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 394--394
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 394--394
+[]|\T1/ppl/m/n/7 0.0247| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 394--394
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 394--394
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 394--394
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 395--395
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 395--395
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 395--395
+[]|\T1/ppl/m/n/7 0.0719| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 395--395
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 395--395
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 395--395
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 397--397
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 397--397
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 397--397
+[]|\T1/ppl/m/n/7 0.0152| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 397--397
+[]|\T1/ppl/m/n/7 0.2143| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 397--397
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 397--397
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 398--398
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 398--398
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 398--398
+[]|\T1/ppl/m/n/7 0.0159| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 398--398
+[]|\T1/ppl/m/n/7 0.1658| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 398--398
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 398--398
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 399--399
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 399--399
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 399--399
+[]|\T1/ppl/m/n/7 0.0183| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 399--399
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 399--399
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 399--399
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 400--400
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 400--400
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 400--400
+[]|\T1/ppl/m/n/7 0.0189| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 400--400
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 400--400
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 400--400
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 401--401
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 401--401
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 401--401
+[]|\T1/ppl/m/n/7 0.0193| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 401--401
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 401--401
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 401--401
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 403--403
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 403--403
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 403--403
+[]|\T1/ppl/m/n/7 0.0178| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 403--403
+[]|\T1/ppl/m/n/7 0.2143| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 403--403
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 403--403
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 404--404
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 404--404
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 404--404
+[]|\T1/ppl/m/n/7 0.0183| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 404--404
+[]|\T1/ppl/m/n/7 0.1658| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 404--404
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 404--404
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 405--405
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 405--405
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 405--405
+[]|\T1/ppl/m/n/7 0.0207| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 405--405
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 405--405
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 405--405
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 406--406
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 406--406
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 406--406
+[]|\T1/ppl/m/n/7 0.0211| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 406--406
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 406--406
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 406--406
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 407--407
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 407--407
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 407--407
+[]|\T1/ppl/m/n/7 0.0211| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 407--407
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 407--407
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 407--407
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 431--431
+[]|\T1/ppl/m/n/7 Algorithm| 
+ []
+
+
+Overfull \hbox (5.63976pt too wide) in paragraph at lines 431--431
+[]|\T1/ppl/m/n/7 Clusters| 
+ []
+
+
+Overfull \hbox (5.77454pt too wide) in paragraph at lines 431--431
+[]|\T1/ppl/m/n/7 entropy| 
+ []
+
+
+Overfull \hbox (2.41946pt too wide) in paragraph at lines 431--431
+[]|\T1/ppl/m/n/7 dunn| 
+ []
+
+
+Overfull \hbox (3.68454pt too wide) in paragraph at lines 431--431
+[]|\T1/ppl/m/n/7 tEAttr| 
+ []
+
+
+Overfull \hbox (4.55252pt too wide) in paragraph at lines 431--431
+[]|\T1/ppl/m/n/7 enAttr| 
+ []
+
+
+Overfull \hbox (4.2008pt too wide) in paragraph at lines 431--431
+[]|\T1/ppl/m/n/7 duAttr| 
+ []
+
+
+Overfull \hbox (3.18927pt too wide) in paragraph at lines 431--432
+[]|\T1/ppl/m/n/7 tIAttr| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 433--433
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 433--433
+[]|\T1/ppl/m/n/7 0.0046| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 433--433
+[]|\T1/ppl/m/n/7 0.2120| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 433--433
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 433--433
+[]|\T1/ppl/m/n/7 0.0004| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 434--434
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 434--434
+[]|\T1/ppl/m/n/7 0.0079| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 434--434
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 434--434
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 434--434
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 435--435
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 435--435
+[]|\T1/ppl/m/n/7 0.0081| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 435--435
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 435--435
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 435--435
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 436--436
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 436--436
+[]|\T1/ppl/m/n/7 0.0089| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 436--436
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 436--436
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 436--436
+[]|\T1/ppl/m/n/7 0.0006| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 440
  []
 
 [12]
-<img/entropy.png, id=403, 599.23875pt x 439.6425pt>
-File: img/entropy.png Graphic file (type png)
-<use img/entropy.png>
-Package pdftex.def Info: img/entropy.png  used on input line 505.
-(pdftex.def)             Requested size: 184.93916pt x 113.80792pt.
-<img/dunn.png, id=404, 599.23875pt x 439.6425pt>
-File: img/dunn.png Graphic file (type png)
-<use img/dunn.png>
-Package pdftex.def Info: img/dunn.png  used on input line 507.
-(pdftex.def)             Requested size: 184.93916pt x 113.80792pt.
- [13 <./img/entropy.png> <./img/dunn.png>]
-<img/app.png, id=416, 1397.22pt x 724.7075pt>
-File: img/app.png Graphic file (type png)
-<use img/app.png>
-Package pdftex.def Info: img/app.png  used on input line 578.
-(pdftex.def)             Requested size: 398.33977pt x 256.07315pt.
-<img/app1.png, id=418, 1396.21625pt x 719.68875pt>
-File: img/app1.png Graphic file (type png)
-<use img/app1.png>
-Package pdftex.def Info: img/app1.png  used on input line 587.
-(pdftex.def)             Requested size: 398.33055pt x 256.07881pt.
- [14] [15 <./img/app.png> <./img/app1.png>]
-<img/variable_false.png, id=432, 691.58376pt x 37.13875pt>
-File: img/variable_false.png Graphic file (type png)
-<use img/variable_false.png>
-Package pdftex.def Info: img/variable_false.png  used on input line 604.
-(pdftex.def)             Requested size: 398.34349pt x 14.2262pt.
-<img/variable_true.png, id=434, 676.5275pt x 38.1425pt>
-File: img/variable_true.png Graphic file (type png)
-<use img/variable_true.png>
-Package pdftex.def Info: img/variable_true.png  used on input line 612.
-(pdftex.def)             Requested size: 398.35289pt x 14.22656pt.
-
-Overfull \hbox (7.16316pt too wide) in paragraph at lines 601--618
-\T1/ppl/m/n/9 (-20) These vari-ables are trans-lated into whole num-bers from l
-eft to right, i.e. \T1/zi4/m/n/9 assists_per_minute
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 452--452
+[]|\T1/ppl/m/n/7 Algorithm| 
  []
 
-<img/tab_graph.png, id=436, 951.555pt x 696.6025pt>
+
+Overfull \hbox (1.50636pt too wide) in paragraph at lines 452--452
+[]|\T1/ppl/m/n/7 entropy| 
+ []
+
+
+Overfull \hbox (1.31206pt too wide) in paragraph at lines 452--452
+[]|\T1/ppl/m/n/7 timeExternalAttr| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 458--458
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 459--459
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 460--460
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 466--466
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 467--467
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 468--468
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 472
+ []
+
+
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 484--484
+[]|\T1/ppl/m/n/7 Algorithm| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 490--490
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 491--491
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 492--492
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 498--498
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 499--499
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 500--500
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 504
+ []
+
+
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 517--517
+[]|\T1/ppl/m/n/7 Algorithm| 
+ []
+
+
+Overfull \hbox (1.50636pt too wide) in paragraph at lines 517--517
+[]|\T1/ppl/m/n/7 entropy| 
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 521--521
+[]|\T1/ppl/m/n/7 fanny_manhattan| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 525--525
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (19.48308pt too wide) in paragraph at lines 527--527
+[]\T1/ppl/b/n/9 Table 5: |\T1/ppl/m/n/9 (-20) Re-sults of the ex-e-cu-tion of t
+he \T1/zi4/m/n/9 Clustering::evaluate_best_validation_external_by_metrics()\T1/
+ppl/m/n/9 (-20) .| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 529
+ []
+
+
+Overfull \vbox (2.83502pt too high) has occurred while \output is active []
+
+
+[13]
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 545--545
+[]|\T1/ppl/m/n/7 Algorithm| 
+ []
+
+
+Overfull \hbox (1.50636pt too wide) in paragraph at lines 545--545
+[]|\T1/ppl/m/n/7 entropy| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 552
+ []
+
+
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 568--568
+[]|\T1/ppl/m/n/7 Algorithm| 
+ []
+
+
+Overfull \hbox (16.9901pt too wide) in paragraph at lines 568--568
+[]|\T1/ppl/m/n/7 timeExternal| 
+ []
+
+
+Overfull \hbox (1.31206pt too wide) in paragraph at lines 568--568
+[]|\T1/ppl/m/n/7 timeExternalAttr| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 576
+ []
+
+<img/entropy.png, id=456, 599.23875pt x 439.6425pt>
+File: img/entropy.png Graphic file (type png)
+<use img/entropy.png>
+Package pdftex.def Info: img/entropy.png  used on input line 585.
+(pdftex.def)             Requested size: 184.93916pt x 99.57942pt.
+<img/dunn.png, id=457, 599.23875pt x 439.6425pt>
+File: img/dunn.png Graphic file (type png)
+<use img/dunn.png>
+Package pdftex.def Info: img/dunn.png  used on input line 587.
+(pdftex.def)             Requested size: 184.93916pt x 99.57942pt.
+[14 <./img/entropy.png> <./img/dunn.png>]
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 615--615
+[]|\T1/ppl/m/n/7 Algorithm| 
+ []
+
+
+Overfull \hbox (5.63976pt too wide) in paragraph at lines 615--615
+[]|\T1/ppl/m/n/7 Clusters| 
+ []
+
+
+Overfull \hbox (5.77454pt too wide) in paragraph at lines 615--615
+[]|\T1/ppl/m/n/7 entropy| 
+ []
+
+
+Overfull \hbox (2.41946pt too wide) in paragraph at lines 615--615
+[]|\T1/ppl/m/n/7 dunn| 
+ []
+
+
+Overfull \hbox (3.68454pt too wide) in paragraph at lines 615--615
+[]|\T1/ppl/m/n/7 tEAttr| 
+ []
+
+
+Overfull \hbox (4.55252pt too wide) in paragraph at lines 615--615
+[]|\T1/ppl/m/n/7 enAttr| 
+ []
+
+
+Overfull \hbox (4.2008pt too wide) in paragraph at lines 615--615
+[]|\T1/ppl/m/n/7 duAttr| 
+ []
+
+
+Overfull \hbox (3.18927pt too wide) in paragraph at lines 615--616
+[]|\T1/ppl/m/n/7 tIAttr| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 617--617
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 617--617
+[]|\T1/ppl/m/n/7 0.0780| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 617--617
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 617--617
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 617--617
+[]|\T1/ppl/m/n/7 0.0040| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 619--619
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 619--619
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 619--619
+[]|\T1/ppl/m/n/7 0.0342| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 619--619
+[]|\T1/ppl/m/n/7 0.0000| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 619--619
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 619--619
+[]|\T1/ppl/m/n/7 0.0026| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 621--621
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 621--621
+[]|\T1/ppl/m/n/7 0.0428| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 621--621
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 621--621
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 621--621
+[]|\T1/ppl/m/n/7 0.0015| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 623--623
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 623--623
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 623--623
+[]|\T1/ppl/m/n/7 0.0319| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 623--623
+[]|\T1/ppl/m/n/7 0.0032| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 623--623
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 623--623
+[]|\T1/ppl/m/n/7 0.0020| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 625--625
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 625--625
+[]|\T1/ppl/m/n/7 0.0323| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 625--625
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 625--625
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 625--625
+[]|\T1/ppl/m/n/7 0.0010| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 627--627
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 627--627
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 627--627
+[]|\T1/ppl/m/n/7 0.0131| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 627--627
+[]|\T1/ppl/m/n/7 0.0064| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 627--627
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 627--627
+[]|\T1/ppl/m/n/7 0.0013| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 629--629
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 629--629
+[]|\T1/ppl/m/n/7 0.0159| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 629--629
+[]|\T1/ppl/m/n/7 0.2120| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 629--629
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 629--629
+[]|\T1/ppl/m/n/7 0.0008| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 631--631
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 631--631
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 631--631
+[]|\T1/ppl/m/n/7 0.0088| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 631--631
+[]|\T1/ppl/m/n/7 0.2201| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 631--631
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 631--631
+[]|\T1/ppl/m/n/7 0.0009| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 633--633
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 633--633
+[]|\T1/ppl/m/n/7 0.0146| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 633--633
+[]|\T1/ppl/m/n/7 0.2374| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 633--633
+[]|\T1/ppl/m/n/7 0.1096| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 633--633
+[]|\T1/ppl/m/n/7 0.0005| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 635--635
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 635--635
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 635--635
+[]|\T1/ppl/m/n/7 0.0067| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 635--635
+[]|\T1/ppl/m/n/7 0.2498| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 635--635
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 635--635
+[]|\T1/ppl/m/n/7 0.0008| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 639
+ []
+
+
+Overfull \hbox (4.08275pt too wide) in paragraph at lines 650--650
+[]|\T1/ppl/m/n/7 Algorithm| 
+ []
+
+
+Overfull \hbox (5.63976pt too wide) in paragraph at lines 650--650
+[]|\T1/ppl/m/n/7 Clusters| 
+ []
+
+
+Overfull \hbox (5.77454pt too wide) in paragraph at lines 650--650
+[]|\T1/ppl/m/n/7 entropy| 
+ []
+
+
+Overfull \hbox (2.41946pt too wide) in paragraph at lines 650--650
+[]|\T1/ppl/m/n/7 dunn| 
+ []
+
+
+Overfull \hbox (3.68454pt too wide) in paragraph at lines 650--650
+[]|\T1/ppl/m/n/7 tEAttr| 
+ []
+
+
+Overfull \hbox (4.55252pt too wide) in paragraph at lines 650--650
+[]|\T1/ppl/m/n/7 enAttr| 
+ []
+
+
+Overfull \hbox (4.2008pt too wide) in paragraph at lines 650--650
+[]|\T1/ppl/m/n/7 duAttr| 
+ []
+
+
+Overfull \hbox (3.18927pt too wide) in paragraph at lines 650--651
+[]|\T1/ppl/m/n/7 tIAttr| 
+ []
+
+
+Overfull \hbox (2.00554pt too wide) in paragraph at lines 652--652
+[]|\T1/ppl/m/n/7 gmm_manhattan| 
+ []
+
+
+Overfull \hbox (6.08144pt too wide) in paragraph at lines 652--652
+[]|\T1/ppl/m/n/7 dataframe| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 652--652
+[]|\T1/ppl/m/n/7 0.0067| 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 652--652
+[]|\T1/ppl/m/n/7 0.2498| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 652--652
+[]|\T1/ppl/m/n/7 0.1151| 
+ []
+
+
+Overfull \hbox (5.02364pt too wide) in paragraph at lines 652--652
+[]|\T1/ppl/m/n/7 0.0008| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 656
+ []
+
+<img/app.png, id=470, 1411.2725pt x 845.1575pt>
+File: img/app.png Graphic file (type png)
+<use img/app.png>
+Package pdftex.def Info: img/app.png  used on input line 677.
+(pdftex.def)             Requested size: 398.34068pt x 256.07683pt.
+<img/app1.png, id=472, 1405.25pt x 828.09375pt>
+File: img/app1.png Graphic file (type png)
+<use img/app1.png>
+Package pdftex.def Info: img/app1.png  used on input line 686.
+(pdftex.def)             Requested size: 398.33473pt x 256.07463pt.
+[15] [16 <./img/app.png> <./img/app1.png>]
+<img/tab_graph.png, id=490, 951.555pt x 825.0825pt>
 File: img/tab_graph.png Graphic file (type png)
 <use img/tab_graph.png>
-Package pdftex.def Info: img/tab_graph.png  used on input line 626.
-(pdftex.def)             Requested size: 398.34361pt x 199.1609pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 633.
-
-<img/tab_summary.png, id=438, 940.51375pt x 361.35pt>
+Package pdftex.def Info: img/tab_graph.png  used on input line 710.
+(pdftex.def)             Requested size: 398.34361pt x 227.6223pt.
+<img/tab_summary.png, id=492, 940.51375pt x 361.35pt>
 File: img/tab_summary.png Graphic file (type png)
 <use img/tab_summary.png>
-Package pdftex.def Info: img/tab_summary.png  used on input line 635.
-(pdftex.def)             Requested size: 398.34253pt x 199.16766pt.
-[16 <./img/variable_false.png> <./img/variable_true.png> <./img/tab_graph.png>]
-(./RJwrapper.bbl (./RJwrapper.brf)
+Package pdftex.def Info: img/tab_summary.png  used on input line 719.
+(pdftex.def)             Requested size: 398.34253pt x 170.71672pt.
+ [17 <./img/tab_graph.png> <./img/tab_summary.png>] (./RJwrapper.bbl (./RJwrapp
+er.brf)
 \tf@brf=\write6
 \openout6 = `RJwrapper.brf'.
 
- [17 <./img/tab_summary.png>] [18] [19]))
-[20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
- (./RJwrapper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
+ [18] [19]) [20]) [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+
+(./RJwrapper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `RJwrapper.out' has not changed.
 (rerunfilecheck)             Checksum: ACA3A1A646673CBC0DAD8BE4795F0161;1188.
 Package rerunfilecheck Info: File `RJwrapper.brf' has not changed.
-(rerunfilecheck)             Checksum: BFF4281E57724819568CE8765111C970;2768.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
+(rerunfilecheck)             Checksum: FEAA68D9C8F54562777A50B6CC483318;2942.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
  ) 
 Here is how much of TeX's memory you used:
- 22475 strings out of 492649
- 400141 string characters out of 6129622
- 506719 words of memory out of 5000000
- 25538 multiletter control sequences out of 15000+600000
- 46696 words of font info for 217 fonts, out of 8000000 for 9000
+ 23447 strings out of 492649
+ 415936 string characters out of 6129622
+ 600591 words of memory out of 5000000
+ 26453 multiletter control sequences out of 15000+600000
+ 55995 words of font info for 240 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,94p,2010b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/
-usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/usr
-/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/urw/palatino/uplri8a.pfb>
-Output written on RJwrapper.pdf (20 pages, 599111 bytes).
+ 62i,12n,94p,2228b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
+r/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/usr/l
+ocal/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/urw/palatino/uplri8a.pfb>
+Output written on RJwrapper.pdf (21 pages, 587064 bytes).
 PDF statistics:
- 619 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 137 named destinations out of 1000 (max. 500000)
- 31445 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 581 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 38603 words of extra memory for PDF output out of 42996 (max. 10000000)
 
