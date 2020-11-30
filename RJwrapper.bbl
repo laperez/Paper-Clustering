@@ -1,20 +1,16 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[b63(2008)]{b63}
-k-anmi: A mutual information based clustering algorithm for categorical data.
-\newblock \emph{Information Fusion}, 9\penalty0 (2):\penalty0 223 -- 233, 2008.
-
 \bibitem[Ansari et~al.(2015)Ansari, Azeem, Ahmed, and Babu]{b44}
 Z.~Ansari, M.~Azeem, W.~Ahmed, and A.~Babu.
 \newblock Quantitative evaluation of performance and validity indices for
   clustering the web navigational sessions.
 \newblock \emph{World of Computer Science and Information Technology Journal},
-  1, 07 2015.
+  1, 2015.
 
 \bibitem[Balevi and Gitlin(2018)]{b2}
 E.~Balevi and R.~D. Gitlin.
@@ -33,14 +29,14 @@ M.~J. Berry and G.~S. Linoff.
 F.~Charte, A.~M. Vico, P.~González, C.~J. Carmona, and M.~J. Del~Jesus.
 \newblock Subgroup discovery with evolutionary fuzzy systems in r: The sdefsr
   package.
-\newblock \emph{The R Journal}, 8:\penalty0 307--323, 01 2016.
+\newblock \emph{The R Journal}, 8:\penalty0 307--323, 2016.
 
 \bibitem[Dang(2011)]{b30}
 S.~Dang.
 \newblock A review of clustering techiques in various applications for
   effective data mining.
 \newblock \emph{International Journal of Research in IT and Management
-  2231-4434}, 1:\penalty0 50--66, 01 2011.
+  2231-4434}, 1:\penalty0 50--66, 2011.
 
 \bibitem[Deborah et~al.(2010)Deborah, Baskaran, and Kannan]{b39}
 L.~J. Deborah, R.~Baskaran, and A.~Kannan.
@@ -52,9 +48,7 @@ L.~J. Deborah, R.~Baskaran, and A.~Kannan.
 C.~C. Farias, C.~V. Ubierna, P.~B. Elorza, M.~P.~D. Santamaria, and J.~T. Laso.
 \newblock A comparison of fuzzy clustering algorithms applied to feature
   extraction on vineyard.
-\newblock Noviembre 2011.
-\newblock URL \url{http://oa.upm.es/9246/}.
-\newblock LPF-TAGRALIA.
+\newblock 2011.
 
 \bibitem[Fernández et~al.(2009)Fernández, Luengo, Derrac, Alcala-Fdez, and
   Herrera]{b15}
@@ -62,38 +56,32 @@ A.~Fernández, J.~Luengo, J.~Derrac, J.~Alcala-Fdez, and F.~Herrera.
 \newblock Implementation and integration of algorithms into the keel
   data-mining software tool.
 \newblock 5788:\penalty0 562--569, 09 2009.
-\newblock \doi{10.1007/978-3-642-04394-9_68}.
 
 \bibitem[Frey and Dueck(2007)]{b10}
 B.~J. Frey and D.~Dueck.
 \newblock Clustering by passing messages between data points.
-\newblock \emph{Science}, 315\penalty0 (5814):\penalty0 972--976, 2007.
-\newblock ISSN 0036-8075.
-\newblock \doi{10.1126/science.1136800}.
+\newblock 315:\penalty0 972--976, 2007.
 
 \bibitem[Gan et~al.(2007)Gan, Ma, and Wu]{b56}
 G.~Gan, C.~Ma, and J.~Wu.
-\newblock Data clustering - theory, algorithms, and applications.
-\newblock 2007.
+\newblock \emph{Data Clustering: Theory, Algorithms, and Applications}.
+\newblock Society for Industrial and Applied Mathematics, 2007.
 
 \bibitem[Guha et~al.(1998)Guha, Rastogi, and Shim]{b20}
 S.~Guha, R.~Rastogi, and K.~Shim.
 \newblock Cure: An efficient clustering algorithm for large databases.
-\newblock \emph{SIGMOD Rec.}, 27\penalty0 (2):\penalty0 73–84, June 1998.
-\newblock ISSN 0163-5808.
+\newblock \emph{SIGMOD Rec.}, 27\penalty0 (2):\penalty0 73–84, 1998.
 
 \bibitem[Guo et~al.(2019)Guo, Zhao, and Liu]{b21}
 D.~Guo, J.~Zhao, and J.~Liu.
 \newblock Research and application of improved chameleon algorithm based on
   condensed hierarchical clustering method.
 \newblock page 14–18, 2019.
-\newblock \doi{10.1145/3375998.3376016}.
 
 \bibitem[Halkidi et~al.(2001)Halkidi, Batistakis, and Vazirgiannis]{b53}
 M.~Halkidi, Y.~Batistakis, and M.~Vazirgiannis.
 \newblock On clustering validation techniques.
-\newblock \emph{Journal of Intelligent Information Systems}, 17, 10 2001.
-\newblock \doi{10.1023/A:1012801612483}.
+\newblock \emph{Journal of Intelligent Information Systems}, 17, 2001.
 
 \bibitem[Hasnat and Hasan(2018)]{b1}
 M.~M. Hasnat and S.~Hasan.
@@ -101,15 +89,19 @@ M.~M. Hasnat and S.~Hasan.
   destinations from location-based social media data}.
 \newblock \emph{Transportation Research Part C: Emerging Technologies},
   96:\penalty0 38--54, 2018.
-\newblock ISSN 0968090X.
+
+\bibitem[He et~al.(2005)He, Xu, and Deng]{b63}
+Z.~He, X.~Xu, and S.~Deng.
+\newblock {K-ANMI:} {A} mutual information based clustering algorithm for
+  categorical data.
+\newblock 2005.
 
 \bibitem[Hu(2019)]{b28}
 S.~Hu.
 \newblock Indoor location method based on data mining.
 \newblock In \emph{Proceedings of the 2019 5th International Conference on
-  Systems, Control and Communications}, page 11–15, New York, NY, USA, 2019.
-  Association for Computing Machinery.
-\newblock ISBN 9781450372640.
+  Systems, Control and Communications}, page 11–15. Association for Computing
+  Machinery, 2019.
 
 \bibitem[Huang(1997)]{b26}
 J.~Z. Huang.
@@ -124,19 +116,10 @@ J.~A. Irani, N.~Pise, and M.~Phatak.
 \newblock \emph{International Journal of Computer Applications}, 134:\penalty0
   9--14, 2016.
 
-\bibitem[Jain et~al.(1999{\natexlab{a}})Jain, Murty, and Flynn]{b19}
+\bibitem[Jain et~al.(1999)Jain, Murty, and Flynn]{b19}
 A.~K. Jain, M.~N. Murty, and P.~J. Flynn.
 \newblock Data clustering: A review.
-\newblock \emph{ACM Comput. Surv.}, 31\penalty0 (3):\penalty0 264–323, Sept.
-  1999{\natexlab{a}}.
-\newblock ISSN 0360-0300.
-\newblock \doi{10.1145/331499.331504}.
-
-\bibitem[Jain et~al.(1999{\natexlab{b}})Jain, Murty, and Flynn]{b57}
-A.~K. Jain, M.~N. Murty, and P.~J. Flynn.
-\newblock Data clustering: A review.
-\newblock 31\penalty0 (3), 1999{\natexlab{b}}.
-\newblock ISSN 0360-0300.
+\newblock 1999.
 
 \bibitem[Johnson and Wichern(1998)]{b60}
 R.~A. Johnson and D.~W. Wichern.
@@ -147,9 +130,7 @@ R.~A. Johnson and D.~W. Wichern.
 \bibitem[Kacprzyk and Farhaoui(2019)]{b41}
 J.~Kacprzyk and Y.~Farhaoui.
 \newblock \emph{Big Data and Smart Digital Environment}.
-\newblock 01 2019.
-\newblock ISBN 2197-6503.
-\newblock \doi{10.1007/978-3-030-12048-1-2}.
+\newblock 2019.
 
 \bibitem[Karypis et~al.(2000)Karypis, Kumar, and Steinbach]{b47}
 M.~S.~G. Karypis, V.~Kumar, and M.~Steinbach.
@@ -160,31 +141,25 @@ M.~S.~G. Karypis, V.~Kumar, and M.~Steinbach.
 M.~Khader and G.~Al-Naymat.
 \newblock An overview of various enhancements of denclue algorithm.
 \newblock In \emph{Proceedings of the Second International Conference on Data
-  Science, E-Learning and Information Systems}, DATA 19, New York, NY, USA,
-  2019. Association for Computing Machinery.
-\newblock ISBN 9781450372848.
+  Science, E-Learning and Information Systems}. Association for Computing
+  Machinery, 2019.
 
 \bibitem[Kim and Park(2007)]{b40}
 H.~Kim and H.~Park.
 \newblock {Sparse non-negative matrix factorizations via alternating
   non-negativity-constrained least squares for microarray data analysis}.
-\newblock \emph{Bioinformatics}, 23\penalty0 (12):\penalty0 1495--1502, 05
-  2007.
-\newblock ISSN 1367-4803.
-\newblock \doi{10.1093/bioinformatics/btm134}.
+\newblock \emph{Bioinformatics}, 23\penalty0 (12):\penalty0 1495--1502, 2007.
 
 \bibitem[Kosub(2019)]{b35}
 S.~Kosub.
 \newblock A note on the triangle inequality for the jaccard distance.
-\newblock \emph{Pattern Recognition Letters}, 120:\penalty0 36 -- 38, 2019.
-\newblock ISSN 0167-8655.
-\newblock \doi{https://doi.org/10.1016/j.patrec.2018.12.007}.
+\newblock \emph{Pattern Recognition Letters}, 120:\penalty0 36--38, 2019.
 
 \bibitem[Kotsiantis and Pintelas(2004)]{b17}
 S.~Kotsiantis and P.~Pintelas.
 \newblock Recent advances in clustering: A brief survey.
 \newblock \emph{WSEAS Transactions on Information Science and Applications},
-  1:\penalty0 73--81, 01 2004.
+  1:\penalty0 73--81, 2004.
 
 \bibitem[Kushwaha et~al.(2020)Kushwaha, Mohit, Himanshu, Agrawal, and
   Chetan]{b27}
@@ -192,13 +167,12 @@ Kushwaha, Mohit, Y.~Himanshu, Agrawal, and Chetan.
 \newblock A review on enhancement to standard k-means clustering.
 \newblock In Shukla, R.~Kumar, J.~Agrawal, Sharma, Sanjeev, Chaudhari, N.~S.,
   and K.~K. Shukla, editors, \emph{Social Networking and Computational
-  Intelligence}, pages 313--326, Singapore, 2020. Springer Singapore.
-\newblock ISBN 978-981-15-2071-6.
+  Intelligence}, pages 313--326. Springer Singapore, 2020.
 
 \bibitem[Litoriya(2012)]{b13}
 R.~Litoriya.
 \newblock Comparison of the various clustering algorithms of weka tools.
-\newblock 2:\penalty0 73--80, 05 2012.
+\newblock pages 73--80, 2012.
 
 \bibitem[Macqueen(1967)]{b49}
 J.~Macqueen.
@@ -212,7 +186,6 @@ D.~C.~A. Mallqui and R.~A.~S. Fernandes.
 \newblock {Predicting the direction, maximum, minimum and closing prices of
   daily bitcoin exchange rate using machine learning techniques}.
 \newblock \emph{Applied Soft Computing Journal}, 75:\penalty0 596--606, 2018.
-\newblock ISSN 1568-4946.
 
 \bibitem[Mann and Kaur(2013)]{b46}
 A.~K. Mann and N.~Kaur.
@@ -225,11 +198,11 @@ V.~J. Metsalu~T.
   using principal component analysis and heatmap-.
 \newblock 2015.
 
-\bibitem[MR and MOHAN(2010)]{b31}
-I.~MR and D.~MOHAN.
+\bibitem[Mr and Mohan(2010)]{b31}
+i.~Mr and D.~Mohan.
 \newblock A survey of grid based clustering algorithms.
 \newblock \emph{International Journal of Engineering Science and Technology},
-  2, 08 2010.
+  2, 2010.
 
 \bibitem[Mächler et~al.(2017)Mächler, Rousseeuw, Struyf, Hubert, Hornik,
   Studer, Roudier, and Gonzalez]{b11}
@@ -237,7 +210,7 @@ M.~Mächler, P.~Rousseeuw, A.~Struyf, M.~Hubert, K.~Hornik, M.~Studer,
   P.~Roudier, and J.~Gonzalez.
 \newblock Cluster: "finding groups in data": Cluster analysis extended
   rousseeuw et al.
-\newblock 03 2017.
+\newblock 2017.
 
 \bibitem[Niak{\v{s}}u(2013)]{b62}
 O.~Niak{\v{s}}u.
@@ -261,7 +234,7 @@ M.~G. Omran, A.~P. Engelbrecht, and A.~Salman.
 \bibitem[Palacio-Ni{\~n}o and Berzal(2019)]{b54}
 J.-O. Palacio-Ni{\~n}o and F.~Berzal.
 \newblock Evaluation metrics for unsupervised learning algorithms.
-\newblock \emph{arXiv preprint arXiv:1905.05667}, 2019.
+\newblock 2019.
 
 \bibitem[Pandit et~al.(2011)Pandit, Gupta, et~al.]{b50}
 S.~Pandit, S.~Gupta, et~al.
@@ -274,7 +247,6 @@ A.~R. Ponperiasamy and E.~Thenmozhi.
 \newblock {A Brief survey of Data Mining Techniques Applied to Agricultural
   Data}.
 \newblock 2017.
-\newblock ISSN 2347-2693.
 
 \bibitem[Popat and Emmanuel(2014)]{b48}
 S.~K. Popat and M.~Emmanuel.
@@ -295,18 +267,11 @@ H.~Ramprasanth and A.~Devi.
 \newblock \emph{Journal of Analysis and Computation ISSN:(0973-2861)}, pages
   1--9, 2019.
 
-\bibitem[Rendón et~al.(2011)Rendón, Abundez, Arizmendi, and Quiroz]{b42}
-E.~Rendón, I.~Abundez, A.~Arizmendi, and E.~Quiroz.
-\newblock Internal versus external cluster validation indexes.
-\newblock \emph{International Journal of Computers and Communications},
-  5:\penalty0 27--34, 01 2011.
-
 \bibitem[Romano et~al.(2016)Romano, Vinh, Bailey, and Verspoor]{b43}
 S.~Romano, N.~X. Vinh, J.~Bailey, and K.~Verspoor.
 \newblock {Adjusting for chance clustering comparison measures}.
 \newblock \emph{Journal of Machine Learning Research}, 17:\penalty0 1--32,
   2016.
-\newblock ISSN 15337928.
 
 \bibitem[Saini and Rani(2017)]{b33}
 S.~Saini and P.~Rani.
@@ -314,18 +279,10 @@ S.~Saini and P.~Rani.
 \newblock \emph{International Journal of Advanced Research in Computer
   Science}, 8\penalty0 (5), 2017.
 
-\bibitem[Saxena et~al.(2017)Saxena, Prasad, Gupta, Bharill, Patel, Tiwari, Er,
-  Ding, and Lin]{b23}
-A.~Saxena, M.~Prasad, A.~Gupta, N.~Bharill, o.~Patel, A.~Tiwari, M.~Er,
-  W.~Ding, and C.-T. Lin.
-\newblock A review of clustering techniques and developments.
-\newblock \emph{Neurocomputing}, 267, 07 2017.
-
 \bibitem[Sculley(2010)]{b9}
 D.~Sculley.
 \newblock Web-scale k-means clustering.
 \newblock page 1177–1178, 2010.
-\newblock \doi{10.1145/1772690.1772862}.
 
 \bibitem[Shirkhorshidi et~al.(2015)Shirkhorshidi, Aghabozorgi, and {Ying
   Wah}]{b51}
@@ -333,15 +290,11 @@ A.~S. Shirkhorshidi, S.~Aghabozorgi, and T.~{Ying Wah}.
 \newblock {A Comparison study on similarity and dissimilarity measures in
   clustering continuous data}.
 \newblock \emph{PLoS ONE}, 10\penalty0 (12):\penalty0 1--20, 2015.
-\newblock ISSN 19326203.
-\newblock \doi{10.1371/journal.pone.0144059}.
 
 \bibitem[Singh et~al.(2016)Singh, Shakya, and Biswas]{b7}
 K.~Singh, H.~K. Shakya, and B.~Biswas.
 \newblock {Clustering of people in social network based on textual similarity}.
 \newblock \emph{Perspectives in Science}, 8:\penalty0 570--573, 2016.
-\newblock ISSN 22130209.
-\newblock \doi{10.1016/j.pisc.2016.06.023}.
 
 \bibitem[Starczewski and Krzyzak(2015)]{b45}
 A.~Starczewski and A.~Krzyzak.
@@ -355,28 +308,24 @@ A.~Starczewski and A.~Krzyzak.
 A.~Thalamuthu, I.~Mukhopadhyay, X.~Zheng, and G.~C. Tseng.
 \newblock Evaluation and comparison of gene clustering methods in microarray
   analysis.
-\newblock \emph{Bioinformatics}, 22\penalty0 (19):\penalty0 2405--2412, 07
-  2006.
+\newblock \emph{Bioinformatics}, 22\penalty0 (19):\penalty0 2405--2412, 2006.
 
 \bibitem[Vlegels and Lievens(2017)]{b5}
 J.~Vlegels and J.~Lievens.
 \newblock Music classification, genres, and taste patterns: A ground-up network
   analysis on the clustering of artist preferences.
 \newblock \emph{Poetics}, 60:\penalty0 76--89, 2017.
-\newblock ISSN 0304422X.
 
 \bibitem[Wang and Youn(2018)]{b4}
 Y.~Wang and H.~Y. Youn.
 \newblock Feature weighting based on inter-category and intra-category strength
   for twitter sentiment analysis.
 \newblock \emph{Applied Sciences}, 9:\penalty0 92, 2018.
-\newblock ISSN 2076-3417.
 
 \bibitem[Xu and Wunsch(2005)]{b58}
 R.~Xu and D.~Wunsch.
 \newblock {Survey of Clustering Algorithms}.
 \newblock \emph{IEEE TRANSACTIONS ON NEURAL NETWORKS}, 16\penalty0 (3), 2005.
-\newblock \doi{10.1109/TNN.2005.845141}.
 
 \bibitem[Xuecheng(2010)]{b32}
 L.~Y.~L. Xuecheng.
@@ -387,6 +336,5 @@ L.~Y.~L. Xuecheng.
 T.~Zhang, R.~Ramakrishnan, and M.~Livny.
 \newblock Birch: An efficient data clustering method for very large databases.
 \newblock page 103–114, 1996.
-\newblock \doi{10.1145/233269.233324}.
 
 \end{thebibliography}

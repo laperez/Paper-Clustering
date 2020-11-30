@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  28 OCT 2020 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.12)  30 NOV 2020 08:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -921,7 +921,7 @@ not appear between \csname and \endcsname.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.43 
+l.46 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -929,7 +929,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -940,7 +940,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -951,7 +951,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -962,7 +962,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -973,7 +973,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -984,7 +984,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -995,7 +995,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1006,7 +1006,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1017,7 +1017,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1028,7 +1028,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.43 
+l.46 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1037,7 +1037,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (21.0pt too wide) in paragraph at lines 74--43
+Overfull \hbox (21.0pt too wide) in paragraph at lines 74--46
 []$[]$ 
  []
 
@@ -1375,14 +1375,14 @@ If that doesn't work, type  X <return>  to quit.
 \c@bookmark@seq@number=\count114
 \Hy@SectionHShift=\skip51
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 63.
+Package hyperref Info: Option `colorlinks' set `true' on input line 65.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.68 \setstretch{1.05}
+l.70 \setstretch{1.05}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1397,8 +1397,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 \usepackage[medium]{
-                         titlesec}
+l.101 \usepackage[medium]{
+                          titlesec}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -1409,13 +1409,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \usepackage{
+l.102 \usepackage{
                   titletoc}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.101 \titleformat
+l.103 \titleformat
                   {\section}   {\normalfont\large\bfseries}{}{0em}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1424,7 +1424,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.101 \titleformat{\section
+l.103 \titleformat{\section
                            }   {\normalfont\large\bfseries}{}{0em}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1435,7 +1435,7 @@ and I'll forget about whatever was undefined.
 ! Argument of \set@fontsize has an extra }.
 <inserted text> 
                 \par 
-l.101 ...{\section}   {\normalfont\large\bfseries}
+l.103 ...{\section}   {\normalfont\large\bfseries}
                                                   {}{0em}{}
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1450,7 +1450,7 @@ Runaway argument?
 ! Paragraph ended before \set@fontsize was complete.
 <to be read again> 
                    \par 
-l.101 ...{\section}   {\normalfont\large\bfseries}
+l.103 ...{\section}   {\normalfont\large\bfseries}
                                                   {}{0em}{}
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1463,13 +1463,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...ction}   {\normalfont\large\bfseries}{}{0
+l.103 ...ction}   {\normalfont\large\bfseries}{}{0
                                                   em}{}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.102 \titleformat
+l.104 \titleformat
                   {\subsection}{\normalfont\normalsize\bfseries}{}{0em}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1478,7 +1478,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.102 \titleformat{\subsection
+l.104 \titleformat{\subsection
                               }{\normalfont\normalsize\bfseries}{}{0em}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1489,7 +1489,7 @@ and I'll forget about whatever was undefined.
 ! Argument of \set@fontsize has an extra }.
 <inserted text> 
                 \par 
-l.102 ...section}{\normalfont\normalsize\bfseries}
+l.104 ...section}{\normalfont\normalsize\bfseries}
                                                   {}{0em}{}
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1504,14 +1504,14 @@ Runaway argument?
 ! Paragraph ended before \set@fontsize was complete.
 <to be read again> 
                    \par 
-l.102 ...section}{\normalfont\normalsize\bfseries}
+l.104 ...section}{\normalfont\normalsize\bfseries}
                                                   {}{0em}{}
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-Overfull \hbox (37.77344pt too wide) in paragraph at lines 101--102
+Overfull \hbox (37.77344pt too wide) in paragraph at lines 103--104
 []\T1/cmr/m/n/10 0em 
  []
 
@@ -1522,13 +1522,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 ...ion}{\normalfont\normalsize\bfseries}{}{0
+l.104 ...ion}{\normalfont\normalsize\bfseries}{}{0
                                                   em}{}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.103 \titlecontents
+l.105 \titlecontents
                     {chapter}   [0em]{}{}{}{\titlerule*[1em]{.}\contentspage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1537,7 +1537,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.103 ...ontents{chapter}   [0em]{}{}{}{\titlerule
+l.105 ...ontents{chapter}   [0em]{}{}{}{\titlerule
                                                   *[1em]{.}\contentspage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1546,7 +1546,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.103 ...m]{}{}{}{\titlerule*[1em]{.}\contentspage
+l.105 ...m]{}{}{}{\titlerule*[1em]{.}\contentspage
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1555,22 +1555,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (37.77344pt too wide) in paragraph at lines 102--104
+Overfull \hbox (37.77344pt too wide) in paragraph at lines 104--106
 []\T1/cmr/m/n/10 0em
  []
 
 
-Overfull \hbox (23.60535pt too wide) in paragraph at lines 102--104
+Overfull \hbox (23.60535pt too wide) in paragraph at lines 104--106
 \T1/cmr/m/n/10 chap-
  []
 
 
-Overfull \hbox (12.24701pt too wide) in paragraph at lines 102--104
+Overfull \hbox (12.24701pt too wide) in paragraph at lines 104--106
 \T1/cmr/m/n/10 ter
  []
 
 
-Overfull \hbox (54.43115pt too wide) in paragraph at lines 102--104
+Overfull \hbox (54.43115pt too wide) in paragraph at lines 104--106
 \T1/cmr/m/n/10 [0em]*[1em]. 
  []
 
@@ -1584,7 +1584,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \renewcommand{\abstract}
+l.118 \renewcommand{\abstract}
                               [1]{%
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1596,7 +1596,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 \renewcommand\chapter
+l.153 \renewcommand\chapter
                            {\secdef\RJ@chapter\@schapter}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1637,7 +1637,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 \renewcommand{\thefigure}
+l.183 \renewcommand{\thefigure}
                                {\@arabic\c@figure}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1649,7 +1649,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \renewcommand{\thetable}
+l.184 \renewcommand{\thetable}
                               {\@arabic\c@table}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1661,7 +1661,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 \renewcommand{\contentsname}
+l.191 \renewcommand{\contentsname}
                                   {Contents}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1673,7 +1673,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 \renewcommand\tableofcontents
+l.192 \renewcommand\tableofcontents
                                    {%
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1685,7 +1685,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 \renewcommand{\titlepage}
+l.198 \renewcommand{\titlepage}
                                {%
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1754,11 +1754,11 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 
  
 Here is how much of TeX's memory you used:
- 19031 strings out of 492649
- 353078 string characters out of 6129622
- 462034 words of memory out of 5000000
- 22648 multiletter control sequences out of 15000+600000
+ 19040 strings out of 492649
+ 353240 string characters out of 6129622
+ 462079 words of memory out of 5000000
+ 22657 multiletter control sequences out of 15000+600000
  4403 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,92p,389b,6478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,92p,389b,6485s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
