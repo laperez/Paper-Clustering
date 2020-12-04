@@ -18,6 +18,7 @@
 \backcite {b12}{{1}{2.1}{section.2.1}}
 \backcite {b17}{{2}{2.2}{section.2.2}}
 \backcite {b18}{{2}{2.2}{section.2.2}}
+\backcite {b8}{{2}{2.2.1}{subsection.2.2.1}}
 \backcite {b19}{{2}{2.2.1}{subsection.2.2.1}}
 \backcite {b20}{{2}{2.2.1}{subsection.2.2.1}}
 \backcite {b21}{{2}{2.2.1}{subsection.2.2.1}}
@@ -58,9 +59,6 @@
 \backcite {b44}{{6}{2.3}{equation.2.3.16}}
 \backcite {b45}{{6}{2.3}{equation.2.3.17}}
 \backcite {b54}{{7}{2.3}{equation.2.3.18}}
-\backcite {b54}{{7}{2.3}{figure.caption.7}}
-\backcite {b54}{{7}{2.3}{figure.caption.7}}
-\backcite {b54}{{7}{2.3}{figure.caption.7}}
-\backcite {b54}{{8}{7}{figure.caption.8}}
+\backcite {b54}{{7}{7}{figure.caption.8}}
 \backcite {b54}{{8}{8}{figure.caption.9}}
 \backcite {b55}{{10}{2.4.4}{subsection.2.4.4}}

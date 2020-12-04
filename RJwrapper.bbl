@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -241,6 +241,11 @@ S.~Pandit, S.~Gupta, et~al.
 \newblock A comparative study on distance measuring approaches for clustering.
 \newblock \emph{International Journal of Research in Computer Science},
   2\penalty0 (1):\penalty0 29--31, 2011.
+
+\bibitem[Patibandla and Veeranjaneyulu(2018)]{b8}
+R.~L. Patibandla and N.~Veeranjaneyulu.
+\newblock Survey on clustering algorithms for unstructured data.
+\newblock 2018.
 
 \bibitem[Ponperiasamy and Thenmozhi(2017)]{b3}
 A.~R. Ponperiasamy and E.~Thenmozhi.

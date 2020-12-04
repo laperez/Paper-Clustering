@@ -6,21 +6,21 @@
 \maketitle
 
 \abstract{
-Clustering is a class of unsupervised learning methods that has been applied and studied many times whose purpose is a division of data into groups of similar objects. This technique is quite common among researchers because they can obtain knowledge quickly and easily. The use of this technique is suitable for automatically classifying data in order to reveal concentrations of data. This paper presents the \pkg{Clustering} package which contains a set of clustering algorithms with two objectives: first grouping data in a homogeneous way by establishing differences between clusters; and second generating a ranking between algorithms and the attributes analyzed in the dataset. This package contains references to other R packages without using external software. As a complement to the standard execution through the console, it incorporates a GUI through which we can execute the package without having to know the parameters.
+Clustering is a class of frequently studied and applied unsupervised learning methods whose purpose is a division of data into groups of similar objects. This technique is quite common among researchers as it allows to obtain knowledge quickly and easily. The use of this technique is suitable for automatic data classification in order to reveal concentrations of data. This paper presents the \pkg{Clustering} package which contains a set of clustering algorithms with two objectives: first, grouping data in a homogeneous way by establishing differences between clusters; and second, generating a ranking between algorithms and the attributes analyzed in the dataset. This package contains references to other R packages without using external software. As a complement to the standard execution through the console, it incorporates a GUI through which we can execute the package without having to know the parameters.
 }
 
 \section{Introduction}
 
-Exploring the properties of information in order to generate groups is an unsupervised learning technique known as clustering \citep{b46} \citep{b47}. This technique is a concise data model where a set of data must be partitioned and introduced in groups or clusters. These clusters must meet two conditions: clusters must be as disparate as possible; and the elements that contain them as similar as possible. Throughout the literature related to clustering we can see that there are multiple fields where they can be applied, among which we highlight the following: Identifying tourists and analyzing their destination patterns from location-based social media data \citep{b1}; developing clustering algorithms that maximize performance on 5G heterogeneous networks \citep{b2}; the application of data mining techniques to agriculture data \citep{b3}; weighting characteristics based on the strength between categories and within categories for the analysis of feelings \citep{b4}; music classification, genres and taste patterns \citep{b5}; predicting the direction of fluctuation, maximum, minimum and closing prices of the daily exchange rate of bitcoins \citep{b6}; and \texttt{clustering}  people in a given social network based on textual similarity \citep{b7}.\\
+Exploring the properties of information in order to generate groups is an unsupervised learning technique known as clustering \citep{b46} \citep{b47}. This technique is a concise data model where a set of data must be partitioned and introduced into groups or clusters. These clusters must meet two conditions: clusters must be as disparate as possible; and the elements that contain them as similar as possible. Throughout the literature related to clustering we can see that there are multiple fields where they can be applied, among which we highlight the following: Identifying tourists and analyzing their destination patterns from location-based social media data \citep{b1}; developing clustering algorithms that maximize performance on 5G heterogeneous networks \citep{b2}; the application of data mining techniques to agriculture data \citep{b3}; weighting characteristics based on the strength between categories and within categories for the analysis of feelings \citep{b4}; music classification, genres and taste patterns \citep{b5}; predicting the direction of fluctuation, maximum, minimum and closing prices of the daily exchange rate of bitcoins \citep{b6}; and \texttt{clustering}  people in a given social network based on textual similarity \citep{b7}.\\
 As a rule clustering algorithms are based on the optimization of an objective function, which is usually the weighted sum of the distance to the centers, although these functions may vary and in some cases consist of the definition of functions. In the literature we can group the data in different ways among which we highlight \citep{b48}: partitional, hierarchical or based on density. One of the best known algorithms that solves the clustering problem is the k-means \citep{b49}.\\
-A wide variety of frameworks have been presented in the literature based on clustering algorithms such as: Weka \citep{b13}, ClustVis \citep{b14} and Keel \citep{b15} among others. Also within R there is a specific Cluster task view. Inside the Cluster task view we can see two well differentiated parts: on the one hand we have the most outstanding packages by functionality and in second place we observe the set of packages that work with ordered clusters. From the set of packages we highlight the following: \pkg{ClusterR} \citep{b9}, \pkg{apcluster} \citep{b10}, \pkg{cluster} \citep{b11}, \pkg{advclust} \citep{b12} as well as alternatives to the traditional implementation of k-means and agglomerative hierarchical clustering.\\
+A wide variety of frameworks have been presented in the literature based on clustering algorithms such as: Weka \citep{b13}, ClustVis \citep{b14} and Keel \citep{b15}, among others. Also within R there is a specific Cluster task view. Inside the Cluster task view we can see two well differentiated parts: on the one hand we have the most outstanding packages by functionality and in the other hand we observe the ordered set of packages that work with clusters. Among the set of packages we highlight the following: \pkg{ClusterR} \citep{b9}, \pkg{apcluster} \citep{b10}, \pkg{cluster} \citep{b11}, \pkg{advclust} \citep{b12} as well as alternatives to the traditional implementation of k-means and agglomerative hierarchical clustering.\\
 Usually the task of comparing clustering algorithms is tedious, as it must be performed manually. This is quite time-consuming and in some cases there can be problems in transmitting the results. Similarly, when evaluating the distribution of data in clusters, it is necessary to indicate a categorical variable, so the selection of one variable or another from a data set can influence the results.\\
-This paper presents the \pkg{Clustering} package. It is a package that allows us to compare multiple clustering algorithms simultaneously and assess the accuracy of the results. The purpose of this package is to evaluate a set of datasets in order to determine which attributes are most suitable for clustering. So we can perform evaluations of the clusters created, how they have been distributed, if the distributions are uniform and how they have been categorized from the data.\\
-The distribution of the content of this contribution is as follows: Firstly, in section one \nameref{sec:seccion1} we have the presentation of clustering, types of clustering and similarity measures. Section two \nameref{sec:seccion2} presents the definition of the evaluation measures in order to value the distribution of the data in the clusters. Finally, Section three \nameref{sec:seccion3} describes the structure of the package and presents a complete example about the use of the package.
+This paper presents the \pkg{Clustering} package. It is a package that allows us to compare multiple clustering algorithms simultaneously and assess the accuracy of the results. The purpose of this package is to allow the evaluation of a set of datasets in order to determine which attributes are most suitable for clustering. So, we can perform evaluations of the clusters created, how they have been distributed, whether the distributions are uniform and how they have been categorized from the data.\\
+The structure of this contribution is as follows: Firstly, in section one \nameref{sec:seccion1} we present the concepts of clustering, types of clustering and similarity measures. Section two \nameref{sec:seccion2} presents the definition of the evaluation measures in order to value the distribution of the data in the clusters. Finally, Section three \nameref{sec:seccion3} describes the structure of the package and presents a complete example about the use of the package.
 
 \section{Clustering} \label{sec:seccion1}
 
-Cluster analysis is an unsupervised learning method that constitutes a cornerstone of an intelligent data analysis process. It is used for the exploration of inter-relationships among a collection of patterns, by organizing them into homogeneous clusters. It is called unsupervised learning because unlike classification (known as supervised learning), no a priori labeling of some patterns is available to use in categorizing others and inferring the cluster structure of the whole data set \citep{b17}. The basic concept of clustering should be expressed as follows:
+Cluster analysis is an unsupervised learning method that constitutes a cornerstone of an intelligent data analysis process. It is used for the exploration of inter-relationships among a collection of patterns, by organizing them into homogeneous clusters. It is called unsupervised learning because, unlike classification (known as supervised learning), no a priori labeling of some of the patterns is available to use in categorizing others and inferring the cluster structure of the whole data set \citep{b17}. The basic concept of clustering should be expressed as follows:
 \\
 \begin{quote}
 Clustering is the process of identifying natural clusters or clusters within multidimensional data based on some measure of similarity (Euclidean, Manhattan, etc.) \citep{b18}.
@@ -29,7 +29,7 @@ This is a base definition of clustering so variations in the problem definition 
 
 \subsection{Clustering types}
 
-There are a variety of clustering algorithms that can be classified into: hierarchical, partitioning, density-based, grid-based and probability distribution. The most commonly used groupings are: hierarchical, partitional, density-based, grid-based and model-based.
+There are a variety of clustering algorithms that can be classified into: hierarchical, partitioning, density-based, grid-based and probability distribution \citep{b8}.
 \\
 \begin{itemize}
   \item Hierarchical clustering: creates a hierarchical breakdown of data into a dendogram that recursively divides the data set into smaller and smaller groups. It can be created in two ways: bottom-up or top-down \citep{b19}. With the bottom-up method trees are known as agglomerative, as the objects are successively combined according to the measurements, until they are all joined into one or meet a completion condition. In the case of top-down, it is known as divisive, where all the objects are in the same group, and as we iterate they are divided into smaller subsets until each object is in an individual group or fulfills a condition of completion. An example of this type of clustering can be found in Figure ~\ref{fig:hierarchical}. Some hierarchical grouping algorithms that belong to this sorting mode are: CURE \citep{b20}, CHAMELEON \citep{b21}, and BIRCH \citep{b22}.
@@ -54,8 +54,8 @@ There are a variety of clustering algorithms that can be classified into: hierar
     \caption{Density Clustering.}
     \label{fig:density}%
 \end{figure}
-  \item Grid-based clustering: first quantizes the clustering space into a finite number of cells and then performs the required operations on the quantized space \citep{b30}. Cells that contain more than a certain number of points are treated as dense, and the dense cells are connected to form the clusters. Some grid-based clustering algorithms include: STING \citep{b31}, Wave Cluster \citep{b32} and CLIQUE \citep{b33}.
-  \item Model-based methods: are primarily based on a probability distribution. To be able to measure similarity it is based on the mean values and the algorithm tries to minimize the square error function. The Auto Class algorithm uses the Bayesian approach, starting with a random initialization of parameters that is gradually adjusted in order to find the maximum probability estimates. Among the model-based algorithms we highlight SOM \citep{b34}. Model-based clustering is shown in Figure ~\ref{fig:model}.
+  \item Grid-based clustering: first quantizes the clustering space into a finite number of cells and then performs the required operations on the quantized space \citep{b30}. Cells that contain more than a certain number of points are treated as dense, and the dense cells are connected to form the clusters. Some of the best known grid-based clustering algorithms include: STING \citep{b31}, Wave Cluster \citep{b32} and CLIQUE \citep{b33}.
+  \item Model-based methods: are primarily based on a probability distribution. To be able to measure similarity it is based on the mean values that the algorithm tries to minimize with the square error function. The Auto Class algorithm uses the Bayesian approach, starting with a random initialization of parameters that is gradually adjusted in order to find the maximum probability estimates. Among the model-based algorithms we highlight SOM \citep{b34}. Model-based clustering is shown in Figure ~\ref{fig:model}.
     \begin{figure}[htbp]
   \centering
    \includegraphics[width=0.9\linewidth, height=0.16\textheight]{img/model.pdf}
@@ -91,7 +91,7 @@ sum of the lengths of the projections of the line segment between the points ont
     \begin{equation}
         d_{mah}= \sqrt{(x-y)S^-1(x-y)^T}
     \end{equation}
-    where S is the covariance matrix of the dataset
+    where S is the covariance matrix of the dataset.
     \item Pearson correlation: A statistically based metric that measures the linear correlation between two variables, x and y \citep{b61}.
     \begin{equation}
         Pearson(x,y)= \frac{\sum_{i=1}^n(x_i-\mu_x)(y_i-\mu_y)}{\sqrt{\sum_{i=1}^n(x_i-y_i)^2}\sqrt{\sum_{i=1}^n(x_i-y_i)^2}}
@@ -114,8 +114,8 @@ sum of the lengths of the projections of the line segment between the points ont
 
 \section {Internal and External clustering validation measures} \label{sec:seccion2}
 
-Clustering validation is a technique for finding a set of clusters that best fits natural partitions (number of clusters) without any class information. The results of a clustering algorithm are known as cluster validity. The following criteria must therefore be taken into account when investigating the validity of clusters. The first criterion is based on external measures, which involves evaluating the results of a base algorithm in a pre-specified structure which is imposed on a data set and reflects our intuition about the structure of clustering of the data set. The second criterion is based on internal measures where it evaluates the results of a clustering algorithm in terms of the quantity involved in the vectors of the dataset itself (e.g. the proximity matrix). And there is a third criterion known as the relative criterion whose purpose is to compare the results of execution of an algorithm with another using different parameters.
-When we talk about criteria based on internal measures we must take into account the criteria of compaction and separation \citep{b53} \citep{b52}, as can be seen in Figure ~\ref{fig:cohesion}:
+Clustering validation is a technique for finding a set of clusters that best fits natural partitions without any class information. The results of a clustering algorithm are known as cluster validity. The following criteria must therefore be taken into account when investigating the validity of clusters. The first criterion is based on external measures, which involves evaluating the results of a base algorithm in a pre-specified structure which is imposed on a data set and reflects our intuition about the structure of clustering of the data set. The second criterion is based on internal measures where the results of a clustering algorithm is evaluated in terms of the quantity involved in the vectors of the dataset itself (e.g. the proximity matrix). And there is a third criterion, known as the relative criterion, whose purpose is to compare the results of execution of an algorithm with another using different parameters.
+When we talk about criteria based on internal measures we must take into account the criteria of compactness and separation \citep{b53} \citep{b52}, as can be seen in Figure ~\ref{fig:cohesion}:
 \begin{enumerate}
   \item Compactness; the members of each cluster should be as close to each other as possible. A common measure of compactness is variance, which should be minimized.
   \item Separation; the clusters themselves should be widely spaced. There are three common approaches to measuring the distance between two different clusters:
@@ -125,7 +125,7 @@ When we talk about criteria based on internal measures we must take into account
   \item Comparison of centroids: Measures the distance between the centers of the clusters.
 \end{itemize}
 \end{enumerate}
-These criteria are graphically represented in the image ~\ref{fig:separation}.
+These criteria are graphically represented in the Figure ~\ref{fig:separation}.
 
 \begin{figure}[htbp]
   \centering
@@ -133,7 +133,7 @@ These criteria are graphically represented in the image ~\ref{fig:separation}.
     \caption{Intercluster distance \citep{b60}.}%
     \label{fig:separation}%
 \end{figure}
-Within the external tests there exist some measures for evaluating clustering results. Among these we highlight:
+Within external measures there are some measures to evaluate clustering results. Among these we highlight:
 \begin{itemize}
     \item Entropy: Evaluates the distribution of categories in a cluster \citep{b40}.
     \begin{equation}
@@ -158,7 +158,7 @@ Within the external tests there exist some measures for evaluating clustering re
     \begin{equation}
         F-measure(i,j) = \frac{2 * (Precision(i,j) * Recall(i,j))}{(Precision(i,j) + Recall(i,j))}
     \end{equation}
-    \item Fowlkes-Mallows Index: It is a measure of comparison of hierarchical clustering. However, it can be used in flat clustering since it consists of the calculation of an index $B_{i}$ for each level i = 2 ,..., n-1 of the hierarchy \citep{b43}. The measure $B_{i}$ is easily generalizable to a measure for clustering of different clusters. It can therefore be said that Fowlkes is a measure that can be interpreted as the geometric mean of accuracy (ratio between the number of relevant objects recovered and the total number of objects recovered).
+    \item Fowlkes-Mallows Index: It is a measure of comparison of hierarchical clustering. However, it can be used in flat clustering since it consists of the calculation of an index $B_{i}$ for each level i = 2 ,..., n-1 of the hierarchy \citep{b43}. The measure $B_{i}$ is easily generalizable. It can therefore be said that Fowlkes is a measure that can be interpreted as the geometric mean of accuracy (ratio between the number of relevant objects recovered and the total number of objects recovered).
     \begin{equation}
         Fowlkes(i,j) = \sqrt{Precision(i,j) * Recall(i,j)}
     \end{equation}
@@ -173,12 +173,12 @@ As with the external measures, we will now list the most relevant internal measu
 \begin{itemize}
     \item Connectivity: This measure reflects the extent to which items placed in the same group are considered their closest neighbors in the data space, i.e. the degree of connection of the clusters should be minimal \citep{b39}.
     \begin{equation}
-        connectivity = min_{ 1\leq i \leq K} \left( min_{1\leq j \leq K, i\not= j} \left( \frac{dist(C_i,C_j)}{max_{1\leq k \leq K} \lbrace diam(C_k) \rbrace }  \right) \right)
+        Connectivity = min_{ 1\leq i \leq K} \left( min_{1\leq j \leq K, i\not= j} \left( \frac{dist(C_i,C_j)}{max_{1\leq k \leq K} \lbrace diam(C_k) \rbrace }  \right) \right)
     \end{equation}
     Where $dist(C_i,C_j)$ is the distance between two clusters and $diam(C_k)$ is the diameter of a particular cluster \citep{b39}.
     \item Dunn: It represents the relationship of the smallest distance between observations that are not in the same cluster and the largest distance within the same cluster \citep{b44}.
     \begin{equation}
-    dunn =  min_{1_\leq i\leq k} \left( min_{i+1\leq j \leq k}  \left( \frac{dist(C_i,C_j)}{max_{1_\leq l \leq k} diam(C_{k})} \right) \right)
+    Dunn =  min_{1_\leq i\leq k} \left( min_{i+1\leq j \leq k}  \left( \frac{dist(C_i,C_j)}{max_{1_\leq l \leq k} diam(C_{k})} \right) \right)
     \end{equation}
     Where $dist(C_{i},C_{j})$ is distance between clusters $C_{i}$ and $C_{j}$ and $diam(C_{k})$ is the cluster diameter $C_{k}$.
     \item Silhouette index: The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation) \citep{b45}.
@@ -189,7 +189,7 @@ As with the external measures, we will now list the most relevant internal measu
     $$ b_{i} = \min\limits_{l \in H, l\neq j}^{} \frac{1}{|C_{l}|} \sum_{y \in C_{l}}^{} \| y - x_{i} \| $$ with
     $$ x_{i} \in C_{j}, H = \{h: 1 \leq h \leq K\}$$
 \end{itemize}
-The above evaluation measures can be grouped into families in order to evaluate the quality of the clusters. If we look at Figure ~\ref{fig:external} we can group \texttt{Entropy, Recall, Precision, F-Measure, Fowlkes-Mallows Index and Variation information} into three families \citep{b54}:
+If we look at Figure ~\ref{fig:external} we can group \texttt{Entropy, Recall, Precision, F-Measure, Fowlkes-Mallows Index and Variation information} into three families \citep{b54}:
 
 \begin{figure}[htbp]
   \centering
@@ -199,16 +199,15 @@ The above evaluation measures can be grouped into families in order to evaluate 
 \end{figure}
 
 \begin{itemize}
-  \item Matching Sets: Used to compare two partitions of data. Consists of those methods that identify the relationship between each cluster detected in C and its natural correspondence to the classes in the reference result defined by P (clustering result prediction) \citep{b54}.\\
+  \item Matching Sets: Used to compare two partitions of data. Consists of those methods that identify the relationship between each cluster detected in C and its natural correspondence to the classes in the reference result defined by P (clustering result prediction).\\
 Several measures can be defined for measuring the similarity between the clusters in C, obtained by the clustering algorithm, and the clusters in P, corresponding to our prior (external) knowledge. The metrics included in this method are: \texttt{Precision, Recall} and \texttt{F-measure}.
-  \item Peer-to-peer Correlation: Based on the correlation between pairs, i.e., they seek to measure the similarity between two partitions under equal conditions, such as the result of a grouping process for the same set, but by means of two different methods $ C_{i} $ and $ C_{j} $ \citep{b54}. It is assumed that the examples that are in the same cluster in $ C_{i} $ should be in the same class in $ C_{j} $, and vice-versa. In our package we use the metric: \texttt{Fowlkes-Mallows Index}.
-  \item Measures Based on Information Theory: A third family is based on Information Theory concepts, such as the existing uncertainty in the prediction of the natural classes provided by partition C \citep{b54}. This family includes basic measures such as \texttt{Entropy} and \texttt{Variation Information}.
+  \item Peer-to-peer Correlation: Based on the correlation between pairs, i.e., they seek to measure the similarity between two partitions under equal conditions, such as the result of a grouping process for the same set, but by means of two different methods $ C_{i} $ and $ C_{j} $. It is assumed that the examples that are in the same cluster in $ C_{i} $ should be in the same class in $ C_{j} $, and vice-versa. In our package we use the metric: \texttt{Fowlkes-Mallows Index}.
+  \item Measures Based on Information Theory: A third family is based on Information Theory concepts, such as the existing uncertainty in the prediction of the natural classes provided by partition C. This family includes basic measures such as \texttt{Entropy} and \texttt{Variation Information}.
 \end{itemize}
 Internal evaluation metrics (see Figure ~\ref{fig:cohesion}) do not require external information, so they are focused on measuring cohesion (how close the elements are to each other) and separation (they quantify the level of separation between clusters).
-\clearpage
 \begin{figure}[htbp]
   \centering
-    \subfloat{{\includegraphics[width=8.5cm, height=3cm]{img/cohesion} }}%
+    \subfloat{{\includegraphics[width=8.5cm]{img/cohesion} }}%
     \caption{Representation of cohesion and separation in clustering \citep{b54}.}%
     \label{fig:cohesion}%
 \end{figure}
@@ -223,14 +222,14 @@ According to the Figure ~\ref{fig:internal}, the internal \texttt{Dunn, Silhouet
 \end{figure}
 
 \section {The \pkg{Clustering} package} \label{sec:seccion3}
-The \pkg{Clustering} package has been written entirely in R language. The package is composed of other packages with hierarchical, partitional and agglomerative algorithms. The package has been provided with the ability to read data in different formats such as CSV, \href{https://sci2s.ugr.es/keel/references.php}{KEEL}, \href{https://www.cs.waikato.ac.nz/ml/weka/}{ARFF (Weka)} and \texttt{data.frame} objects. This package implements functionality not developed until now. In current implementations we cannot run several algorithms simultaneously. This option is very useful if we want to compare the results of running several algorithms. Another very useful option not found until now is the ability to run all the dissimilarity measures implemented for an algorithm in the same run, ie, run for example the K-means algorithm for the Euclidean and Manhattan dissimilarity measures simultaneously. This perspective is quite interesting when it comes to secidong what measure to use in the execution of the algorithm. In order to evaluate the quality of the clusters we find packages that perform external or internal evaluations, but we do not have implementations that give us a joint evaluation of both. Finishing the review we find that when evaluating the quality of clusters it is necessary to indicate an attribute of the dataset used in the execution. Depending on the chosen attribute results may vary, so it would be important to have methods that give us the result of running each of the quality measures by attribute, the measure of dissimilarity in the case of it existing, the number of clusters and algorithm. With this \pkg{Clustering} package we will be able to execute simultaneously several algorithms for each of the implemented dissimilarity measures. In addition, when evaluating the results of the executions we have a set of measures that are executed together, which until now was done one execution per measure. It is possible to incorporate new measures quickly in the future. In addition, when running the algorithm all the attributes of the dataset will be executed for each of the quality metrics. The results of the executions are visually displayed so that you can draw conclusions quickly.
+The \pkg{Clustering} package has been written entirely in R language. The package include other packages with hierarchical, partitional and agglomerative algorithms. The package has been provided with the ability to read data in different formats such as CSV, \href{https://sci2s.ugr.es/keel/references.php}{KEEL}, \href{https://www.cs.waikato.ac.nz/ml/weka/}{ARFF (Weka)} and \texttt{data.frame} objects. This package implements functionality not developed until now. In current implementations we cannot run several algorithms simultaneously. This option is very useful to compare the results of several algorithms. Another very useful option, not found until now is the ability to run all the dissimilarity measures implemented for an algorithm in the same run, i.e., run for example the K-means algorithm for the Euclidean and Manhattan dissimilarity measures simultaneously. This perspective is quite interesting when it comes to secidong what measure to use in the execution of the algorithm. In order to evaluate the quality of the clusters we find packages that perform external or internal evaluations, but there was no implementation that give us a joint evaluation of both. Finishing the review we find that when evaluating the quality of clusters it is necessary to indicate an attribute of the dataset used in the execution. Depending on the chosen attribute, results may vary, so it would be important to have methods that give us the result of running each of the quality measures by attribute, the measure of dissimilarity in the case of it existing, the number of clusters and algorithm. With this \pkg{Clustering} package we will be able to execute simultaneously several algorithms for each of the implemented dissimilarity measures. In addition, when evaluating the results of the executions we have a set of measures that are executed together, which until now was done one execution per measure. It is possible to incorporate new measures quickly in the future. In addition, when running the algorithm all the attributes of the dataset will be executed for each of the quality metrics. The results of the executions are visually displayed so that you can draw conclusions quickly.
 
-\subsection{Algorithms of the package}
-These are the algorithms \endnote{For more information about the advclust, amap, apcluster, cluster, Cluster, gmp, pvclust packages you can visit the following link \url{https://cran.r-project.org/web/packages/available_packages_by_name.html}} available within the package, which we will classify as follows:
+\subsection{Package algorithms}
+These are the algorithms \footnote{For more information about the advclust, amap, apcluster, cluster, Cluster, gmp, pvclust packages you can visit the following link \url{https://cran.r-project.org/web/packages/available_packages_by_name.html}} available within the package, which we will classify as follows:
 \begin{itemize}
   \item Hierarchical Clustering: \texttt{agnes, clara, daisy, diana, fanny, fuzzy\_cm, fuzzy\_gk, fuzzy\_gg, hcluster, mona, pam, pvpick and pvclust.}
-  \item Partitioning Clustering: \texttt{gama, gmm, kmeans}
-  \item Aglomerative Clustering: \texttt{aggExCluster, apclusterK}
+  \item Partitioning Clustering: \texttt{gama, gmm, kmeans}.
+  \item Aglomerative Clustering: \texttt{aggExCluster, apclusterK}.
 \end{itemize}
 
 \subsection{Package Architecture}
@@ -249,14 +248,14 @@ This class exports the well-known S3 methods \texttt{print()} and \texttt{summar
     \item External metrics: For external metrics we have a set of methods by which we can determine the behavior of the algorithms based on the best attribute of the data set, measures of dissimilarity and the number of clusters. The methods are as follows:
     \begin{itemize}
       \item \texttt{best\_ranked\_external\_metrics()}: With the execution of this method we obtain which attribute of the data set has better behavior by algorithm, measure of dissimilarity and number of clusters.
-      \item \texttt{evaluate\_best\_validation\_external\_by\_metrics()}: If instead of obtaining the best attribute from the data set we want to group the data by algorithm and measure dissimilarity we should use this method.
+      \item \texttt{evaluate\_best\_validation\_external\_by\_metrics()}: This method should be used to group the data by algorithm and dissimilarity measure, instead of obtaining the best attribute from the data set.
       \item \texttt{evaluate\_validation\_external\_by\_metrics()}: Method for grouping the results of the execution by algorithms.
       \item \texttt{result\_external\_algorithm\_by\_metric()}: It is used for obtaining the results of an algorithm indicated as a parameter grouped by number of clusters.
 \end{itemize}
   \item Internal metrics: For internal metrics we have the same set of methods as mentioned above for external metrics.
   \begin{itemize}
     \item \texttt{best\_ranked\_internal\_metrics()}: With the execution of this method we obtain which attribute of the data set has better behavior by algorithm, measure of dissimilarity and number of clusters.
-    \item \texttt{evaluate\_best\_validation\_internal\_by\_metrics()}: If instead of obtaining the best attribute from the data set we want to group the data by algorithm and measure dissimilarity we should use this method.
+    \item \texttt{evaluate\_best\_validation\_internal\_by\_metrics()}: This method should be used to group the data by algorithm and dissimilarity measure, instead of obtaining the best attribute from the data set.
     \item \texttt{evaluate\_validation\_internal\_by\_metrics()}: Method for grouping the results of the execution by algorithms.
     \item \texttt{result\_internal\_algorithm\_by\_metric()}: It is used for obtaining the results of an algorithm indicated as a parameter grouped by number of clusters.
   \end{itemize}
@@ -284,7 +283,7 @@ library("Clustering")
 \end{verbatim}
 Once the installation and loading process has been completed, we proceed with the processing of the data and its execution.
 
-\subsection {Use and load of datasets}
+\subsection {Load and use of datasets}
 
 For the execution of the main method of the package we must provide data which can be in different formats. The file formats accepted by the package are: KEEL, ARFF and CSV. The data can be loaded in two ways: firstly we can indicate a directory with files in the formats indicated above and load all the available files; and secondly we can provide a \texttt{data.frame} with the necessary data for execution. In order to read the files in ARFF format it has been extracted from the \pkg{mldr} package \citep{b55}.\\
 If we need to work with test data, we have pre-loaded data. The loaded datasets have been obtained from the KEEL repository url \url{https://sci2s.ugr.es/keel/category.php?cat=uns} in CSV format.\\
@@ -301,7 +300,6 @@ Once the way to provide the data has been defined the next step is to be able to
   \item \texttt{min}: An integer with the minimum number of clusters This data is necessary to indicate the minimum number of clusters when grouping the data. The default value is 3.
   \item \texttt{max}: An integer with the maximum number of clusters. This data is necessary to indicate the maximum number of clusters when grouping the data. The default value is 4.
 \end{itemize}
-\theendnotes
 \begin{itemize}
   \item \texttt{metrics}: Character vector with the metrics implemented in order to evaluate the distribution of the data in clusters. The night metrics implemented are: \texttt{entropy, variation\_information, precision,recall,f\_measure,fowlkes\_mallows\_index,connectivity,dunn,silhouette}.
   \item \texttt{metricsAttr}: Character vector with the metrics implemented in order to evaluate the distribution of the data in clusters. The nine metrics implemented are: \texttt{entropy, variation\_information, precision,recall,f\_measure,fowlkes\_mallows\_index,connectivity,dunn,silhouette}. This column is the same as the previous one, with the difference that it shows the dataset attribute.
@@ -332,7 +330,8 @@ The attributes resulting from the execution of the method are:
   \item \texttt{metricsAttr:} The same metrics that instead of showing numerical values show the attributes of the dataset.
   \item \texttt{timeInternalAttr:} Time taken to implement internal evaluation measures by attribute.
 \end{itemize}
-
+In Table ~\ref{tab:clustering} we have the results of the execution of the \texttt{clustering()} method. According to the results, the algorithm that better bejaves for the \texttt{entropy} metric is \texttt{gmm}, as highlighted in Table ~\ref{tab:clustering}.
+\clearpage
 {\small
 \begin{longtable}{| p{1cm} | p{1.8cm} | p{0.7cm} | p{0.9cm} | p{0.5cm} | p{0.65cm} | p{0.5cm} | p{0.5cm} | p{0.55cm} | p{0.55cm} | p{0.6cm} | p{0.5cm} |}
 \hline
@@ -413,9 +412,8 @@ The attributes resulting from the execution of the method are:
 \caption{Results of running the main method of the package.}
 \label{tab:clustering}
 \end{longtable}}
-From the results obtained and as it appears marked in Table ~\ref{tab:clustering} he algorithm that behaves best for the \texttt{entropy} metric is \texttt{gmm}. To make compression easier we have extracted the values of the \texttt{gmm} algorithm with five clusters the and \texttt{manhattan} measurement. The values are arranged in descending order. The values in the columns ending in Attr refer to the attributes of the dataset. As already mentioned, the attributes of the dataset are numbered from left to right in ascending order. Thus \texttt{assists per minute} which is the first attribute of the dataset found on the left is numbered with 1, \texttt{height} with 2, \texttt{time played} with 3, \texttt{age} with 4 and \texttt{points per minute} with 5.
-\newline
-\newline
+To make compression easier we have extracted the values of the \texttt{gmm} algorithm with five clusters the and \texttt{manhattan} measurement. The values are arranged in descending order. The values in the columns ending in Attr refer to the attributes of the dataset. As already mentioned, the attributes of the dataset are numbered from left to right in ascending order. Thus \texttt{assists per minute} which is the first attribute of the dataset found on the left is numbered with 1, \texttt{height} with 2, \texttt{time played} with 3, \texttt{age} with 4 and \texttt{points per minute} with 5.
+
 {\small
 \begin{longtable}{| p{1cm} | p{1.8cm} | p{0.7cm} | p{0.9cm} | p{0.5cm} | p{0.65cm} | p{0.5cm} | p{0.5cm} | p{0.55cm} | p{0.55cm} | p{0.6cm} | p{0.5cm} |}
 \hline
@@ -431,7 +429,9 @@ From the results obtained and as it appears marked in Table ~\ref{tab:clustering
 \label{tab:clusteringExample}
 \end{longtable}}
 The name of the column \texttt{tE} corresponds to \texttt{timeExternal}, \texttt{tI} to \texttt{timeInternal}, \texttt{tEAttr} to \texttt{timeExter-}\\
-\texttt{nalAttr}, \texttt{enAttr} to \texttt{entropyAttr}, \texttt{duAttr} to \texttt{dunnAttr} and finally \texttt{tIAttr} to \texttt{timeInternalAttr}. From the data in Table ~\ref{tab:clusteringExample} in row one we have the highest value of entropy for the basketball dataset. If we want to know the dataset attribute for the maximum value we look in the equivalent column of the metric, in our case as we are centered on \texttt{entropy} we must look in the column \texttt{enAttr}, which indicates that it is attribute two that corresponds to height. In order to summarize the information this package provides a series of mechanisms that allow us to summarize the information from the result obtained by the clustering method in such a way that we can obtain the best results and attributes for one or several data sets. The mechanisms used are the following:
+\texttt{nalAttr}, \texttt{enAttr} to \texttt{entropyAttr}, \texttt{duAttr} to \texttt{dunnAttr} and finally \texttt{tIAttr} to \texttt{timeInternalAttr}. From the data in Table ~\ref{tab:clusteringExample} in row one we have the highest value of entropy for the basketball dataset. If we want to know the dataset attribute for the maximum value we look in the equivalent column of the metric, in our case as we are centered on \texttt{entropy} we must look in the column \texttt{enAttr}, which indicates that it is attribute two that corresponds to height.
+
+In order to summarize the information this package provides a series of mechanisms that allow us to summarize the information from the result obtained by the clustering method in such a way that we can obtain the best results and attributes for one or several data sets. The mechanisms used are the following:
 
 \begin{itemize}
   \item \texttt{best\_ranked\_external\_metrics()}: Method used for selecting from the data set attributes those that obtain the best result in the evaluation of the measure. We will now use this mechanism on the previous results.
@@ -441,8 +441,9 @@ The name of the column \texttt{tE} corresponds to \texttt{timeExternal}, \texttt
 > Clustering::best_ranked_external_metrics(result)
 \end{Sinput}
 \end{Schunk}
-{\small
-\begin{longtable}{| p{1cm} | p{1.8cm} | p{0.9cm} | p{1.1cm} | p{1.6cm} | p{0.8cm} | p{1.8cm} | p{1.5cm} |}
+\begin{table}[h!]
+\centering
+\begin{tabular}{| p{1cm} | p{1.8cm} | p{0.9cm} | p{1.1cm} | p{1.6cm} | p{0.8cm} | p{1.8cm} | p{1.5cm} |}
 \hline
 \scriptsize Algorithm  & \scriptsize     Distance    &  \scriptsize Clusters &  \scriptsize  Dataset   & \scriptsize timeExternal  & \scriptsize entropy   & \scriptsize timeExternalAttr & \scriptsize entropyAttr \\
 \hline
@@ -462,9 +463,10 @@ The name of the column \texttt{tE} corresponds to \texttt{timeExternal}, \texttt
 \scriptsize fanny      & \scriptsize fanny\_manhattan & \scriptsize     4     & \scriptsize basketball  & \scriptsize     0.0210    & \scriptsize 0.2143 &  \scriptsize        4        & \scriptsize      4 \\
 \scriptsize fanny      & \scriptsize fanny\_manhattan & \scriptsize     5     & \scriptsize basketball  & \scriptsize     0.0222    & \scriptsize 0.2143 &  \scriptsize        2        & \scriptsize      4 \\
 \hline
+\end{tabular}
 \caption{Results of the execution of the \texttt{best\_ranked\_external\_metrics()}.}
 \label{tab:clusteringbestrankedexternalmetrics}
-\end{longtable}}
+\end{table}
 
 In the calculation of the \texttt{entropy} the results are in the interval [0,1], with the closest to 1 very good. For this example we have the best attributes in \texttt{entropy} grouped by algorithm, measure of dissimilarity and cluster number. When grouping the data, we choose the one with the highest value. We perform the same calculation for internal measurements.
 
@@ -473,6 +475,7 @@ In the calculation of the \texttt{entropy} the results are in the interval [0,1]
 > Clustering::best_ranked_internal_metrics(result)
 \end{Sinput}
 \end{Schunk}
+\newpage
 {\small
 \begin{longtable}{| p{1cm} | p{1.8cm} | p{0.9cm} | p{1.1cm} | p{1.6cm} | p{0.8cm} | p{1.3cm} | p{1.8cm} |}
 \hline
@@ -544,7 +547,7 @@ If we observe Table ~\ref{tab:clusteringbestrankedexternalmetrics} we can see th
 \end{longtable}}
 With \texttt{evaluate\_validation\_external\_by\_metrics} we can see that the most correct algorithm for the dataset is \texttt{gmm} algorithm, as the value of \texttt{entropy} is closer to 1.
   \item \texttt{result\_external\_algorithm\_by\_metric()}: This method has been incorporated to filter the results of the clustering object from an algorithm in order to be able to choose a suitable cluster.
-
+\clearpage
 \begin{Schunk}
 \begin{Sinput}
 > Clustering::result_external_algorithm_by_metric(result,'gmm')
@@ -576,10 +579,10 @@ With \texttt{evaluate\_validation\_external\_by\_metrics} we can see that the mo
 \end{figure}
 
 \end{itemize}
-In conclusion, and based on the results obtained, we can say that the \texttt{gmm} algorithm with five clusters and \texttt{Manhattan} similarity measure is the one with the best behavior for the \texttt{entropy} external metric. The attributes of the dataset that return the best value are the two that correspond to the column \texttt{heightInteger}.
+In conclusion, and based on the results, we can say that the \texttt{gmm} algorithm with five clusters and \texttt{Manhattan} similarity measure is the one with the best behavior for the \texttt{entropy} external metric. The attributes of the dataset that return the best value are the two that correspond to the column \texttt{heightInteger}.
 All these operations that we have carried out to evaluate the external measures can be extrapolated to the internal ones and obtain the necessary information for the appropriate choice of the algorithm as well as the number of clusters.\\
 
-\subsection {Post-processing of data}
+\subsection {Data post-processing}
 
 To conclude the definition of the methods of the package it is always necessary to have a functionality that allows us to sort, filter the information or export the data set. To do this we will detail the methods used:
 
@@ -645,7 +648,7 @@ To conclude the definition of the methods of the package it is always necessary 
 \label{tab:filtering}
 \end{longtable}}
 
-  \item \texttt{export\_file\_external():} Exports the results of the clustering object to \LaTeX format This method is very useful when working with documents in \LaTeX format.
+  \item \texttt{export\_file\_external():} Exports the results of the clustering object to \LaTeX format. This method is very useful when working with documents in \LaTeX format.
   \item \texttt{export\_file\_internal():} This method is similar to the previous one, but only exports the internal metrics.
 \end{itemize}
 
@@ -669,17 +672,17 @@ The execution will open our default browser with the interface. As it can be obs
     \label{fig:layoutApp}%
 \end{figure}
 The operation of the application is very simple, as can be seen in Figure ~\ref{fig:layoutApp1} and we will proceed to explain it step by step.
-
+As can be seen in Figure ~\ref{fig:layoutApp1} we have two well differentiated parts:
+\clearpage
 \begin{figure}[htbp]
   \centering
-   \includegraphics[width=14cm, height=8.5cm]{img/app1}
+   \includegraphics[width=14cm, height=7.5cm]{img/app1}
     \caption{Clustering app user interface.}
     \label{fig:layoutApp1}%
 \end{figure}
 
-As can be seen in Figure ~\ref{fig:layoutApp1} we have two well differentiated parts:
 \begin{enumerate}
-  \item In this section we can find the different parameters used by the clustering function to filter the information.
+  \item In this section we can find the different parameters used by the clustering function to filter the information:
   \begin{itemize}
   \item Marked in red, we can indicate if we want to work with test datasets or indicate a directory of dataset files to be processed.
   \item In blue we have the packages that implement the clustering algorithms mentioned throughout the paper. We can mark all packages or a subset of them. When a package is marked, all the algorithms implemented within the selected package are marked.
@@ -696,7 +699,7 @@ As can be seen in Figure ~\ref{fig:layoutApp1} we have two well differentiated p
 
   \begin{figure}[htbp]
     \centering
-     \includegraphics[width=12cm, height=7cm]{img/tab_graph}
+     \includegraphics[width=12cm, height=6cm]{img/tab_graph}
       \caption{Tab with graphical representation of metrics.}
       \label{fig:tab_graph}
   \end{figure}
@@ -713,10 +716,9 @@ As can be seen in Figure ~\ref{fig:layoutApp1} we have two well differentiated p
   \end{itemize}
 
 \end{enumerate}
-\newpage
 \section{Conclusion}
 
-In this paper we have given an introduction to the \pkg{Clustering} package. The package has dependencies on other packages, as seen throughout the paper. It allows the reading and loading of datasets in KEEL, CSV or ARFF format. We offer the functionality of loading a \texttt{data.frame} in memory or using test datasets. As a complement the package has been enhanced with the inclusion of a graphical interface that allows the user to run the package in a simple way without the need to know the parameters. With this set of functionalities we contribute to choosing which variable of a dataset is the one that obtains the best value when we evaluate the clusters, as well as applying relative criteria that allow us to compare the execution results of an algorithm with another one using different parameters. The development of the package will be continued with the inclusion of new algorithms, functionalities and improvement of the interface, and therefore we encourage developers to contribute to the improvement of the package with the inclusion of new algorithms or functionalities or the inclusion of new proposals to complement the package.
+In this paper we have introduced the \pkg{Clustering} package. The package has dependencies on other packages, as seen throughout the paper. It allows to read and load of datasets in KEEL, CSV or ARFF format. We offer the functionality of loading a \texttt{data.frame} in memory or using test datasets. As a complement, the package has been enhanced with the inclusion of a graphical interface that allows the user to run the package in a simple way without the need to know the parameters. With the package we contribute to choosing which variable of a dataset is the one that obtains the best value when we evaluate the clusters, as well as applying relative criteria that allow us to compare the execution results of an algorithm with another one using different parameters. The development of the package will be continued with the inclusion of new algorithms, functionalities and improvement of the interface, and therefore we encourage developers to contribute to the improvement of the package with the inclusion of new algorithms or functionalities or the inclusion of new proposals to complement the package.
 
 \bibliography{RJreferences}
 
