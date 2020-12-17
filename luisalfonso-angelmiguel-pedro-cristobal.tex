@@ -11,8 +11,8 @@ Clustering is a class of frequently studied and applied unsupervised learning me
 
 \section{Introduction}
 
-Exploring the properties of information in order to generate groups is an unsupervised learning technique known as clustering \citep{b46} \citep{b47}. This technique is a concise data model where a set of data must be partitioned and introduced into groups or clusters. These clusters must meet two conditions: clusters must be as disparate as possible; and the elements that contain them as similar as possible. Throughout the literature related to clustering we can see that there are multiple fields where they can be applied, among which we highlight the following: Identifying tourists and analyzing their destination patterns from location-based social media data \citep{R:hasnat-mehedi-samiul:2018}; developing clustering algorithms that maximize performance on 5G heterogeneous networks \citep{R:balevi-gitlin:2018}; the application of data mining techniques to agriculture data \citep{R:patel-hetal-dharmendra:2014}; weighting characteristics based on the strength between categories and within categories for the analysis of feelings \citep{R:wang-yili-youn:2019}; music classification, genres and taste patterns \citep{R:vlegels-lievens:2017}; predicting the direction of fluctuation, maximum, minimum and closing prices of the daily exchange rate of bitcoins \citep{R:dennys-mallqui-fernandes:2019}; and \texttt{Clustering}  people in a given social network based on textual similarity \citep{R:singh-shakya-biswas:2016}.\\
-As a rule clustering algorithms are based on the optimization of an objective function, which is usually the weighted sum of the distance to the centers, although these functions may vary and in some cases consist of the definition of functions. In the literature we can group the data in different ways among which we highlight \citep{b48}: partitional, hierarchical or based on density. One of the best known algorithms that solves the clustering problem is the k-means \citep{b49}.\\
+Exploring the properties of information in order to generate groups is an unsupervised learning technique known as clustering \citep{R:mann-kaur:2013} \citep{R:michael-george-vipin:2000}. This technique is a concise data model where a set of data must be partitioned and introduced into groups or clusters. These clusters must meet two conditions: clusters must be as disparate as possible; and the elements that contain them as similar as possible. Throughout the literature related to clustering we can see that there are multiple fields where they can be applied, among which we highlight the following: Identifying tourists and analyzing their destination patterns from location-based social media data \citep{R:hasnat-mehedi-samiul:2018}; developing clustering algorithms that maximize performance on 5G heterogeneous networks \citep{R:balevi-gitlin:2018}; the application of data mining techniques to agriculture data \citep{R:patel-hetal-dharmendra:2014}; weighting characteristics based on the strength between categories and within categories for the analysis of feelings \citep{R:wang-yili-youn:2019}; music classification, genres and taste patterns \citep{R:vlegels-lievens:2017}; predicting the direction of fluctuation, maximum, minimum and closing prices of the daily exchange rate of bitcoins \citep{R:dennys-mallqui-fernandes:2019}; and \texttt{Clustering}  people in a given social network based on textual similarity \citep{R:singh-shakya-biswas:2016}.\\
+As a rule clustering algorithms are based on the optimization of an objective function, which is usually the weighted sum of the distance to the centers, although these functions may vary and in some cases consist of the definition of functions. In the literature we can group the data in different ways among which we highlight \citep{R:shraddhak-m:2014}: partitional, hierarchical or based on density. One of the best known algorithms that solves the clustering problem is the k-means \citep{R:macqueen:1967}.\\
 A wide variety of frameworks have been presented in the literature based on clustering algorithms such as: Weka \citep{R:narendra-aman-ratnesh:2012}, ClustVis \citep{R:tauno-jaak:2015} and Keel \citep{R:alberto-julian-joaquin-jesus-francisco:2009}, among others. Also within R there is a specific Cluster task view. Inside the Cluster task view we can see two well differentiated parts: on the one hand we have the most outstanding packages by functionality and in the other hand we observe the ordered set of packages that work with clusters. Among the set of packages we highlight the following: \CRANpkg{ClusterR} \citep{R:sculley:2010} \citep{R:mouselimis:2020}, \CRANpkg{apcluster} \citep{R:frey-dueck:2007} \citep{R:bodenhofer-kothmeier-hochreiter:2011}, \CRANpkg{cluster} \citep{R:maechler-rousseeuw-hubert-hornik:2019}, \CRANpkg{advclust} \citep{R:farias-ubierna-elorza-santamaria-laso:2011} \citep{R:bagus-pramana:2016} as well as alternatives to the traditional implementation of k-means and agglomerative hierarchical clustering.\\
 Usually the task of comparing clustering algorithms is tedious, as it must be performed manually. This is quite time-consuming and in some cases there can be problems in transmitting the results. Similarly, when evaluating the distribution of data in clusters, it is necessary to indicate a categorical variable, so the selection of one variable or another from a data set can influence the results.\\
 This paper presents the \pkg{Clustering} package. It is a package that allows us to compare multiple clustering algorithms simultaneously and assess the accuracy of the results. The purpose of this package is to allow the evaluation of a set of datasets in order to determine which attributes are most suitable for clustering. So, we can perform evaluations of the clusters created, how they have been distributed, whether the distributions are uniform and how they have been categorized from the data.\\
@@ -68,12 +68,12 @@ There are a variety of clustering algorithms that can be classified into: hierar
 
 Dissimilarity measurements are important in the creation of clusters with the closest neighbors and the detection of anomalies, and they are also used in a large number of data mining techniques. It is a measure that determines the degree to which objects are different. We often use the term distance as a synonym for dissimilarity. The values of dissimilarity should be in the range [0,1], but it is common to find in some cases a range other than [0.1], therefore it is recommended to normalize the values in the range [0,1].
 \\
-Many distance measures have been proposed in the literature for data clustering. Choosing an appropriate similarity measure is crucial for cluster analysis, especially for a particular type of algorithm. For example, the density-based clustering algorithms, such as DBScan \citep{R:shan:2019}, rely heavily on the similarity computation. Density-based clustering finds clusters as dense areas in the data set, and the density of a given point is in turn estimated as the closeness of the corresponding data object to its neighboring objects \citep{b50} \citep{b51}.
+Many distance measures have been proposed in the literature for data clustering. Choosing an appropriate similarity measure is crucial for cluster analysis, especially for a particular type of algorithm. For example, the density-based clustering algorithms, such as DBScan \citep{R:shan:2019}, rely heavily on the similarity computation. Density-based clustering finds clusters as dense areas in the data set, and the density of a given point is in turn estimated as the closeness of the corresponding data object to its neighboring objects \citep{R:shraddha-suchita-others:2011} \citep{R:aliseyed-saeed-teh:2015}.
 \\
 As measures of dissimilarity in clustering we highlight the following:
 
 \begin{itemize}
-  \item Minkowski: Is a metric in a normalized vector space which can be considered as a generalization of both the Euclidean distance and the Manhattan distance \citep{b56}.
+  \item Minkowski: Is a metric in a normalized vector space which can be considered as a generalization of both the Euclidean distance and the Manhattan distance \citep{R:gan-ma-wu:2007}.
     \begin{equation}
         d_{min} = (\sum_{i=1}^{n}|x_i - y_i|^m)^\frac{1}{m}, m\geq 1
     \end{equation}
@@ -82,21 +82,21 @@ As measures of dissimilarity in clustering we highlight the following:
     \begin{equation}
         d_{euc} =  \sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^2}
     \end{equation}
-     \item Manhattan distance: The m parameter of the Minkowski Distance when is 1, represent Manhattan Distance. Known as the geometry cab driver is defined as the sum of the lengths of the projections of the line segment between the points onto the coordinate axes \citep{b58}.
+     \item Manhattan distance: The m parameter of the Minkowski Distance when is 1, represent Manhattan Distance. Known as the geometry cab driver is defined as the sum of the lengths of the projections of the line segment between the points onto the coordinate axes \citep{R:rui-donald:2005}.
      \begin{equation}
         d_{man} =  \sum_{i=1}^{n}|x_{i}-y_{i}|
     \end{equation}
-    \item Mahalanobis distance: Is a data-driven measure in contrast to the Euclidean and Manhattan distances which are independent. It is tasked with measuring the distance in a multivariate space \citep{b58}.
+    \item Mahalanobis distance: Is a data-driven measure in contrast to the Euclidean and Manhattan distances which are independent. It is tasked with measuring the distance in a multivariate space \citep{R:rui-donald:2005}.
     \begin{equation}
         d_{mah}= \sqrt{(x-y)S^-1(x-y)^T}
     \end{equation}
     where S is the covariance matrix of the dataset.
-    \item Pearson correlation: A statistically based metric that measures the linear correlation between two variables, x and y \citep{b61}.
+    \item Pearson correlation: A statistically based metric that measures the linear correlation between two variables, x and y \citep{R:institute:2015}.
     \begin{equation}
         Pearson(x,y)= \frac{\sum_{i=1}^n(x_i-\mu_x)(y_i-\mu_y)}{\sqrt{\sum_{i=1}^n(x_i-y_i)^2}\sqrt{\sum_{i=1}^n(x_i-y_i)^2}}
     \end{equation}
     where $\mu_x$ and $\mu_y$ are the means for x and y respectively.
-    \item Jaccard Index: Is a classical similarity measure performed on sets with several practical applications in information retrieval, data mining, machine learning, and many more \citep{R:sven:2016} \citep{b59}. It measures the similarity of the two data elements as the intersection divided by the union of the data elements, as shown below.
+    \item Jaccard Index: Is a classical similarity measure performed on sets with several practical applications in information retrieval, data mining, machine learning, and many more \citep{R:sven:2016} \citep{R:jasmine-nittin-madhura:2016}. It measures the similarity of the two data elements as the intersection divided by the union of the data elements, as shown below.
     \begin{equation}
         J(A,B) = \frac{A \cap B}{A \cup B}
     \end{equation}
@@ -104,7 +104,7 @@ As measures of dissimilarity in clustering we highlight the following:
     \begin{equation}
         d_{ij}=\sqrt{(1-S_{ij})}
     \end{equation}
-    where $S_{ij}$ the Gower similarity coefficient is \citep{b62}.
+    where $S_{ij}$ the Gower similarity coefficient is \citep{R:olegas:2013}.
     \begin{equation}
         S_{ij}=\frac{\sum_{k}^{n}w_{ijk}S_{ijk}}{\sum_{n}^{k}w_{ijk}}
     \end{equation}
@@ -114,7 +114,7 @@ As measures of dissimilarity in clustering we highlight the following:
 \section {Internal and External clustering validation measures} \label{sec:seccion2}
 
 Clustering validation is a technique for finding a set of clusters that best fits natural partitions without any class information. The results of a clustering algorithm are known as cluster validity. The following criteria must therefore be taken into account when investigating the validity of clusters. The first criterion is based on external measures, which involves evaluating the results of a base algorithm in a pre-specified structure which is imposed on a data set and reflects our intuition about the structure of clustering of the data set. The second criterion is based on internal measures where the results of a clustering algorithm is evaluated in terms of the quantity involved in the vectors of the dataset itself (e.g. the proximity matrix). And there is a third criterion, known as the relative criterion, whose purpose is to compare the results of execution of an algorithm with another using different parameters.
-When we talk about criteria based on internal measures we must take into account the criteria of compactness and separation \citep{b53} \citep{b52}, as can be seen in Figure ~\ref{fig:cohesion}:
+When we talk about criteria based on internal measures we must take into account the criteria of compactness and separation \citep{R:maria-yannis-michalis:2001} \citep{R:gordons-ja:2011}, as can be seen in Figure ~\ref{fig:cohesion}:
 \begin{enumerate}
   \item Compactness; the members of each cluster should be as close to each other as possible. A common measure of compactness is variance, which should be minimized.
   \item Separation; the clusters themselves should be widely spaced. There are three common approaches to measuring the distance between two different clusters:
@@ -129,7 +129,7 @@ These criteria are graphically represented in the Figure ~\ref{fig:separation}.
 \begin{figure}[htbp]
   \centering
     \subfloat{{\includegraphics[width=10cm,height=6cm]{img/separation} }}%
-    \caption{Intercluster distance \citep{b60}.}%
+    \caption{Intercluster distance \citep{R:arnol-deanw-others:2002}.}%
     \label{fig:separation}%
 \end{figure}
 Within external measures there are some measures to evaluate clustering results. Among these we highlight:
@@ -143,12 +143,12 @@ Within external measures there are some measures to evaluate clustering results.
         E_{j} =  \sum_{i} p_{ij}log(p_{ij})
     \end{equation}
     Where $p_{ij}$ is the probability of a point in the cluster $i$ of being classified as class $j$.
-    \item Recall: Indicates the proximity of the measurement results to the true value \citep{b41}.
+    \item Recall: Indicates the proximity of the measurement results to the true value \citep{R:janusz-yousef:2019}.
     \begin{equation}
          Recall(i,j) = \frac{n_{ij}}{|C_{i}|}
     \end{equation}
     $n_{ij}$ is the number of objects of class i that are in cluster j and $n_{i}$ is the number of objects in cluster i.
-    \item Precision: Refers to the dispersion of the set of values obtained from repeated measurements of one magnitude \citep{b41}.
+    \item Precision: Refers to the dispersion of the set of values obtained from repeated measurements of one magnitude \citep{R:janusz-yousef:2019}.
         \begin{equation}
             Precision(i,j) = \frac{n_{ij}}{|C_{j}|}
         \end{equation}
@@ -157,12 +157,12 @@ Within external measures there are some measures to evaluate clustering results.
     \begin{equation}
         F-measure(i,j) = \frac{2 * (Precision(i,j) * Recall(i,j))}{(Precision(i,j) + Recall(i,j))}
     \end{equation}
-    \item Fowlkes-Mallows Index: It is a measure of comparison of hierarchical clustering. However, it can be used in flat clustering since it consists of the calculation of an index $B_{i}$ for each level i = 2 ,..., n-1 of the hierarchy \citep{b43}. The measure $B_{i}$ is easily generalizable. It can therefore be said that Fowlkes is a measure that can be interpreted as the geometric mean of accuracy (ratio between the number of relevant objects recovered and the total number of objects recovered).
+    \item Fowlkes-Mallows Index: It is a measure of comparison of hierarchical clustering. However, it can be used in flat clustering since it consists of the calculation of an index $B_{i}$ for each level i = 2 ,..., n-1 of the hierarchy \citep{R:simone-nguyen-james-karin:2016}. The measure $B_{i}$ is easily generalizable. It can therefore be said that Fowlkes is a measure that can be interpreted as the geometric mean of accuracy (ratio between the number of relevant objects recovered and the total number of objects recovered).
     \begin{equation}
         Fowlkes(i,j) = \sqrt{Precision(i,j) * Recall(i,j)}
     \end{equation}
 
-    \item Variation information: Variation in information or distance of shared information is a measure of the distance between two groups \citep{b43}. This measure is closely related to mutual information (mutual dependence between the two variables) \citep{b63}.
+    \item Variation information: Variation in information or distance of shared information is a measure of the distance between two groups \citep{R:simone-nguyen-james-karin:2016}. This measure is closely related to mutual information (mutual dependence between the two variables) \citep{R:zengyou-xiaofei-shengchun:2005}.
     \begin{equation}
        VI(|C_{i}|,|C_{j}|) = 2H(C_{i},C_{j}) - H(C_{i}) - H(C_{j})
     \end{equation}
@@ -175,12 +175,12 @@ As with the external measures, we will now list the most relevant internal measu
         Connectivity = min_{ 1\leq i \leq K} \left( min_{1\leq j \leq K, i\not= j} \left( \frac{dist(C_i,C_j)}{max_{1\leq k \leq K} \lbrace diam(C_k) \rbrace }  \right) \right)
     \end{equation}
     Where $dist(C_i,C_j)$ is the distance between two clusters and $diam(C_k)$ is the diameter of a particular cluster \citep{R:deborah-baskaran-kannan:2010}.
-    \item Dunn: It represents the relationship of the smallest distance between observations that are not in the same cluster and the largest distance within the same cluster \citep{b44}.
+    \item Dunn: It represents the relationship of the smallest distance between observations that are not in the same cluster and the largest distance within the same cluster \citep{R:zahid-mf-waseem-a:2015}.
     \begin{equation}
     Dunn =  min_{1_\leq i\leq k} \left( min_{i+1\leq j \leq k}  \left( \frac{dist(C_i,C_j)}{max_{1_\leq l \leq k} diam(C_{k})} \right) \right)
     \end{equation}
     Where $dist(C_{i},C_{j})$ is distance between clusters $C_{i}$ and $C_{j}$ and $diam(C_{k})$ is the cluster diameter $C_{k}$.
-    \item Silhouette index: The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation) \citep{b45}.
+    \item Silhouette index: The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation) \citep{R:artur-adam:2015}.
     \begin{equation}
         S = \frac{1}{N}\sum_{i=0}^{N}\frac{b_{i} - a_{i}}{max(a_{i},b_{i})}
     \end{equation}
@@ -188,7 +188,7 @@ As with the external measures, we will now list the most relevant internal measu
     $$ b_{i} = \min\limits_{l \in H, l\neq j}^{} \frac{1}{|C_{l}|} \sum_{y \in C_{l}}^{} \| y - x_{i} \| $$ with
     $$ x_{i} \in C_{j}, H = \{h: 1 \leq h \leq K\}$$
 \end{itemize}
-If we look at Figure ~\ref{fig:external} we can group \texttt{Entropy, Recall, Precision, F-Measure, Fowlkes-Mallows Index and Variation information} into three families \citep{b54}:
+If we look at Figure ~\ref{fig:external} we can group \texttt{Entropy, Recall, Precision, F-Measure, Fowlkes-Mallows Index and Variation information} into three families \citep{R:palacio-galiano:2019}:
 
 \begin{figure}[htbp]
   \centering
@@ -207,7 +207,7 @@ Internal evaluation metrics (see Figure ~\ref{fig:cohesion}) do not require exte
 \begin{figure}[htbp]
   \centering
     \subfloat{{\includegraphics[width=8.5cm]{img/cohesion} }}%
-    \caption{Representation of cohesion and separation in clustering \citep{b54}.}%
+    \caption{Representation of cohesion and separation in clustering \citep{R:palacio-galiano:2019}.}%
     \label{fig:cohesion}%
 \end{figure}
 
@@ -216,7 +216,7 @@ According to the Figure ~\ref{fig:internal}, the internal \texttt{Dunn, Silhouet
 \begin{figure}[htbp]
   \centering
     \subfloat{{\includegraphics[width=6.5cm]{img/internal.pdf} }}%
-    \caption{Methods of external internal of clustering \citep{b54}.}%
+    \caption{Methods of external internal of clustering \citep{R:palacio-galiano:2019}.}%
     \label{fig:internal}%
 \end{figure}
 
@@ -284,7 +284,7 @@ Once the installation and loading process has been completed, we proceed with th
 
 \subsection {Load and use of datasets}
 
-For the execution of the main method of the package we must provide data which can be in different formats. The file formats accepted by the package are: KEEL, ARFF and CSV. The data can be loaded in two ways: firstly we can indicate a directory with files in the formats indicated above and load all the available files; and secondly we can provide a \texttt{data.frame} with the necessary data for execution. The code to read the files in ARFF format it has been extracted from the \pkg{mldr} package \citep{b55}.\\
+For the execution of the main method of the package we must provide data which can be in different formats. The file formats accepted by the package are: KEEL, ARFF and CSV. The data can be loaded in two ways: firstly we can indicate a directory with files in the formats indicated above and load all the available files; and secondly we can provide a \texttt{data.frame} with the necessary data for execution. The code to read the files in ARFF format it has been extracted from the \CRANpkg{mldr} package \citep{R:charte-david:2015}.\\
 If we need to work with test data, we have pre-loaded data. The loaded datasets have been obtained from the KEEL repository url \url{https://sci2s.ugr.es/keel/category.php?cat=uns} in CSV format.\\
 Note that the extension is used to determine the type of file format.
 
@@ -693,23 +693,23 @@ As can be seen in Figure ~\ref{fig:layoutApp1} we have two well differentiated p
   \item In the main layout we have the options for representing the data.
   \begin{itemize}
 
+    \item If we click on the summary tab as shown in Figure ~\ref{fig:tab_summary}, we can see the data represented in tables. If we wish we can export the results in the following formats: CSV, PDF and XLS. We also have the option of copying the data.
+
+  \begin{figure}[htbp]
+    \centering
+     \includegraphics[width=14cm, height=6cm]{img/tab_summary}
+      \caption{\pkg{Clustering} package execution summary tab.}
+      \label{fig:tab_summary}
+  \end{figure}
+
     \item To view the data in graphical mode as shown in Figure ~\ref{fig:tab_graph}, we mark the Plot tab. In the Figure we can see represented the internal and external evaluation metrics and depending on the type of evaluation we can filter individually by metrics to see the data represented graphically.
 
 
   \begin{figure}[htbp]
     \centering
-     \includegraphics[width=10cm, height=6cm]{img/tab_graph}
+     \includegraphics[width=14cm,height=8.5cm]{img/tab_graph}
       \caption{Tab with graphical representation of metrics.}
       \label{fig:tab_graph}
-  \end{figure}
-
-    \item If we click on the summary tab as shown in Figure ~\ref{fig:tab_summary}, we can see the data represented in tables. If we wish we can export the results in the following formats: CSV, PDF and XLS. We also have the option of copying the data.
-
-  \begin{figure}[htbp]
-    \centering
-     \includegraphics[width=14cm, height=5cm]{img/tab_summary}
-      \caption{\pkg{Clustering} package execution summary tab.}
-      \label{fig:tab_summary}
   \end{figure}
 
   \end{itemize}
