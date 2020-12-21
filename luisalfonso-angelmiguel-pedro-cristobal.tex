@@ -11,7 +11,7 @@ Clustering is a class of frequently studied and applied unsupervised learning me
 
 \section{Introduction}
 
-Exploring the properties of information in order to generate groups is an unsupervised learning technique known as clustering \citep{R:mann-kaur:2013} \citep{R:michael-george-vipin:2000}. This technique is a concise data model where a set of data must be partitioned and introduced into groups or clusters. These clusters must meet two conditions: clusters must be as disparate as possible; and the elements that contain them as similar as possible. Throughout the literature related to clustering we can see that there are multiple fields where they can be applied, among which we highlight the following: Identifying tourists and analyzing their destination patterns from location-based social media data \citep{R:hasnat-mehedi-samiul:2018}; developing clustering algorithms that maximize performance on 5G heterogeneous networks \citep{R:balevi-gitlin:2018}; the application of data mining techniques to agriculture data \citep{R:patel-hetal-dharmendra:2014}; weighting characteristics based on the strength between categories and within categories for the analysis of feelings \citep{R:wang-yili-youn:2019}; music classification, genres and taste patterns \citep{R:vlegels-lievens:2017}; predicting the direction of fluctuation, maximum, minimum and closing prices of the daily exchange rate of bitcoins \citep{R:dennys-mallqui-fernandes:2019}; and \texttt{Clustering}  people in a given social network based on textual similarity \citep{R:singh-shakya-biswas:2016}.\\
+Exploring the properties of information in order to generate groups is an unsupervised learning technique known as clustering \citep{R:mann-kaur:2013} \citep{R:michael-george-vipin:2000}. This technique is a concise data model where a set of data must be partitioned and introduced into groups or clusters. These clusters must meet two conditions: clusters must be as disparate as possible; and the elements that contain them as similar as possible. Throughout the literature related to clustering we can see that there are multiple fields where they can be applied, among which we highlight the following: Identifying tourists and analyzing their destination patterns from location-based social media data \citep{R:hasnat-mehedi-samiul:2018}; developing clustering algorithms that maximize performance on 5G heterogeneous networks \citep{R:balevi-gitlin:2018}; the application of data mining techniques to agriculture data \citep{R:patel-hetal-dharmendra:2014}; weighting characteristics based on the strength between categories and within categories for the analysis of feelings \citep{R:wang-yili-youn:2019}; music classification, genres and taste patterns \citep{R:vlegels-lievens:2017}; predicting the direction of fluctuation, maximum, minimum and closing prices of the daily exchange rate of bitcoins \citep{R:dennys-mallqui-fernandes:2019}; and \texttt{Clustering} people in a given social network based on textual similarity \citep{R:singh-shakya-biswas:2016}.\\
 As a rule clustering algorithms are based on the optimization of an objective function, which is usually the weighted sum of the distance to the centers, although these functions may vary and in some cases consist of the definition of functions. In the literature we can group the data in different ways among which we highlight \citep{R:shraddhak-m:2014}: partitional, hierarchical or based on density. One of the best known algorithms that solves the clustering problem is the k-means \citep{R:macqueen:1967}.\\
 A wide variety of frameworks have been presented in the literature based on clustering algorithms such as: Weka \citep{R:narendra-aman-ratnesh:2012}, ClustVis \citep{R:tauno-jaak:2015} and Keel \citep{R:alberto-julian-joaquin-jesus-francisco:2009}, among others. Also within R there is a specific Cluster task view. Inside the Cluster task view we can see two well differentiated parts: on the one hand we have the most outstanding packages by functionality and in the other hand we observe the ordered set of packages that work with clusters. Among the set of packages we highlight the following: \CRANpkg{ClusterR} \citep{R:sculley:2010} \citep{R:mouselimis:2020}, \CRANpkg{apcluster} \citep{R:frey-dueck:2007} \citep{R:bodenhofer-kothmeier-hochreiter:2011}, \CRANpkg{cluster} \citep{R:maechler-rousseeuw-hubert-hornik:2019}, \CRANpkg{advclust} \citep{R:farias-ubierna-elorza-santamaria-laso:2011} \citep{R:bagus-pramana:2016} as well as alternatives to the traditional implementation of k-means and agglomerative hierarchical clustering.\\
 Usually the task of comparing clustering algorithms is tedious, as it must be performed manually. This is quite time-consuming and in some cases there can be problems in transmitting the results. Similarly, when evaluating the distribution of data in clusters, it is necessary to indicate a categorical variable, so the selection of one variable or another from a data set can influence the results.\\
@@ -39,7 +39,7 @@ There are a variety of clustering algorithms that can be classified into: hierar
     \caption{Hierarchical Clustering.}
     \label{fig:hierarchical}%
 \end{figure}
-  \item Partitional clustering: is considered to be the most popular of the clustering algorithms. Such an algorithm is known as an iterative relocation algorithm. This algorithm minimizes a given clustering criterion by iteratively relocating data points between clusters until an optimal partition is reached. This type of algorithm divides the data points into a partition k, where each partition represents a cluster. Partial clustering organizes the objects within k clusters so that the total deviation of each object from the center of its cluster or from a cluster distribution is minimal. The deviation of a given point can be evaluated differently according to the algorithm, and is generally known as a similarity function. If we want to observe graphically how this type of clustering works we can see it in Figure ~\ref{fig:partitional}. Among the partitioning clustering algorithms we can find CLARANS, CLARA \citep{R:h-a:2019}, K-prototype \citep{R:nithya-prabha:2019}, K-mode \citep{R:huang:1997} and K-means \citep{R:mohit-himanshu-chetan:2020}.
+  \item Partitional clustering: Is considered to be the most popular of the clustering algorithms. Such an algorithm is known as an iterative relocation algorithm. This algorithm minimizes a given clustering criterion by iteratively relocating data points between clusters until an optimal partition is reached. This type of algorithm divides the data points into a partition k, where each partition represents a cluster. Partial clustering organizes the objects within k clusters so that the total deviation of each object from the center of its cluster or from a cluster distribution is minimal. The deviation of a given point can be evaluated differently according to the algorithm, and is generally known as a similarity function. If we want to observe graphically how this type of clustering works we can see it in Figure ~\ref{fig:partitional}. Among the partitioning clustering algorithms we can find CLARANS, CLARA \citep{R:h-a:2019}, K-prototype \citep{R:nithya-prabha:2019}, K-mode \citep{R:huang:1997} and K-means \citep{R:mohit-himanshu-chetan:2020}.
 \begin{figure}[htbp]
   \centering
    \includegraphics[width=0.95\linewidth, height=0.2\textheight]{img/partitional.pdf}
@@ -47,15 +47,15 @@ There are a variety of clustering algorithms that can be classified into: hierar
     \label{fig:partitional}%
 \end{figure}
 \\
-  \item Density-based algorithms: obtain clusters based on dense regions of objects in the data space that are separated by low-density regions (these isolated elements represent noise). These regions are represented in Figure ~\ref{fig:density}. Among the density-based algorithms, we highlight the following: Dbscan \citep{R:shan:2019}, and Denclue \citep{R:mariam-ghazi:2019}.
+  \item Density-based algorithms: Obtain clusters based on dense regions of objects in the data space that are separated by low-density regions (these isolated elements represent noise). These regions are represented in Figure ~\ref{fig:density}. Among the density-based algorithms, we highlight the following: Dbscan \citep{R:shan:2019}, and Denclue \citep{R:mariam-ghazi:2019}.
   \begin{figure}[htbp]
   \centering
    \includegraphics[width=0.9\linewidth, height=0.2\textheight]{img/density.pdf}
     \caption{Density Clustering.}
     \label{fig:density}%
 \end{figure}
-  \item Grid-based clustering: first quantizes the clustering space into a finite number of cells and then performs the required operations on the quantized space \citep{R:shilpa:2011}. Cells that contain more than a certain number of points are treated as dense, and the dense cells are connected to form the clusters. Some of the best known grid-based clustering algorithms include: STING \citep{R:ilango-dr:2010}, Wave Cluster \citep{R:li-liu:2010} and CLIQUE \citep{R:saini-rani:2017}.
-  \item Model-based methods: are primarily based on a probability distribution. To be able to measure similarity it is based on the mean values that the algorithm tries to minimize with the square error function. The Auto Class algorithm uses the Bayesian approach, starting with a random initialization of parameters that is gradually adjusted in order to find the maximum probability estimates. Among the model-based algorithms we highlight SOM \citep{R:anbupalam-indranil-xiaojing-george:2006}. Model-based clustering is shown in Figure ~\ref{fig:model}.
+  \item Grid-based clustering: First quantizes the clustering space into a finite number of cells and then performs the required operations on the quantized space \citep{R:shilpa:2011}. Cells that contain more than a certain number of points are treated as dense, and the dense cells are connected to form the clusters. Some of the best known grid-based clustering algorithms include: STING \citep{R:ilango-dr:2010}, Wave Cluster \citep{R:li-liu:2010} and CLIQUE \citep{R:saini-rani:2017}.
+  \item Model-based methods: Are primarily based on a probability distribution. To be able to measure similarity it is based on the mean values that the algorithm tries to minimize with the square error function. The Auto Class algorithm uses the Bayesian approach, starting with a random initialization of parameters that is gradually adjusted in order to find the maximum probability estimates. Among the model-based algorithms we highlight SOM \citep{R:anbupalam-indranil-xiaojing-george:2006}. Model-based clustering is shown in Figure ~\ref{fig:model}.
     \begin{figure}[htbp]
   \centering
    \includegraphics[width=0.9\linewidth, height=0.16\textheight]{img/model.pdf}
@@ -230,6 +230,9 @@ These are the algorithms \footnote{For more information about the advclust, amap
   \item Partitioning Clustering: \texttt{gama, gmm, kmeans}.
   \item Aglomerative Clustering: \texttt{aggExCluster, apclusterK}.
 \end{itemize}
+
+
+These are the algorithms included in the packages that have been mentioned most often in the literature.
 
 \subsection{Package Architecture}
 
@@ -566,7 +569,7 @@ With \texttt{evaluate\_validation\_external\_by\_metrics} we can see that the be
 \label{tab:resultexternalalgorithmbymetric}
 \end{longtable}}
 
-\item \texttt{plot\_clustering()}: Mechanism for representing the evaluation metrics based on the number of clusters, accelerating the process of choosing the best results, as shown in Figure ~\ref{fig:clustering}.
+\item \texttt{plot\_clustering()}: Mechanism for representing the evaluation metrics based on the number of clusters, accelerating the process of choosing the best results, as shown in Figure ~\ref{fig:clustering}. In Figure ~\ref{fig:clustering} we can see that, in the representation of dunn metric, no fanny algorithm appears. This is because the dunn values for fanny algorithm are zeros.
 
 \begin{figure}[htbp]
   \centering
@@ -722,29 +725,29 @@ In this paper we have introduced the \pkg{Clustering} package. The package has d
 \bibliography{RJreferences}
 
 \address{Luis Alfonso Pérez Martos\\
-  Computer Department\\
-  University of Jaén\\
+  Department of Computer Science\\
+  University of Jaen, 23071\\
   Spain\\
   https://orcid.org/0000-0002-5154-6105\\
   \email{lapm0001@gmail.com}}
 
 \address{Ángel Miguel García Vico\\
-  Computer Department\\
-  University of Jaén\\
+  Interuniversity Andalusian Institute on Data Science and Computational Intelligence\\
+  University of Jaen, 23071\\
   Spain\\
   http://orcid.org/0000-0003-1583-2128\\
   \email{agvico@ujaen.es}}
 
 \address{Pedro González\\
-  Computer Department\\
-  University of Jaén\\
+  Interuniversity Andalusian Institute on Data Science and Computational Intelligence\\
+  University of Jaen, 23071\\
   Spain\\
   https://orcid.org/0000-0002-6733-3868\\
   \email{pglez@ujaen.es}}
 
 \address{Cristóbal J. Carmona\\
-  Computer Department\\
-  University of Jaén\\
+  Interuniversity Andalusian Institute on Data Science and Computational Intelligence\\
+  University of Jaen, 23071\\
   Spain\\
   https://orcid.org/0000-0001-7008-5378\\
   \email{ccarmona@ujaen.es}}

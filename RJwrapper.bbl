@@ -5,12 +5,13 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Ansari et~al.()Ansari, Azeem, Ahmed, and
+\bibitem[Ansari et~al.(2015)Ansari, Azeem, Ahmed, and
   Babu]{R:zahid-mf-waseem-a:2015}
 Z.~Ansari, M.~Azeem, W.~Ahmed, and A.~Babu.
 \newblock Quantitative evaluation of performance and validity indices for
   clustering the web navigational sessions.
-\newblock \emph{World of Computer Science and Information Technology Journal}.
+\newblock \emph{World of Computer Science and Information Technology Journal},
+  1, 2015.
 
 \bibitem[Balevi and Gitlin(2018)]{R:balevi-gitlin:2018}
 E.~Balevi and R.~Gitlin.
@@ -32,11 +33,12 @@ F.~Charte and D.~Charte.
 \newblock Working with multilabel datasets in {R}: The mldr package.
 \newblock \emph{The R Journal}, 7\penalty0 (2):\penalty0 149--162, 2015.
 
-\bibitem[Correa et~al.()Correa, Valero, Barreiro, Diago, and
+\bibitem[Correa et~al.(2011)Correa, Valero, Barreiro, Diago, and
   Tardaguila]{R:farias-ubierna-elorza-santamaria-laso:2011}
 C.~Correa, C.~Valero, P.~Barreiro, M.-P. Diago, and J.~Tardaguila.
 \newblock A comparison of fuzzy clustering algorithms applied to feature
   extraction on vineyard.
+\newblock volume~1, page 778, 2011.
 
 \bibitem[Dang(2011)]{R:shilpa:2011}
 S.~Dang.
@@ -301,7 +303,7 @@ R.~S. M.~L. Patibandla and N.~Veeranjaneyulu.
 S.~K. Popat and M.~Emmanuel.
 \newblock Review and comparative study of clustering techniques.
 \newblock \emph{International journal of computer science and information
-  technologies}, 2014.
+  technologies}, 5\penalty0 (1):\penalty0 805--812, 2014.
 
 \bibitem[Ramprasanth and Devi(2019)]{R:h-a:2019}
 H.~Ramprasanth and A.~Devi.
@@ -320,7 +322,8 @@ J.~Rodrigues, G.~Vasconcelos, and R.~Tin'{o}s.
   Verspoor]{R:simone-nguyen-james-karin:2016}
 S.~Romano, N.~the vinh, J.~Bailey, and K.~Verspoor.
 \newblock Adjusting for chance clustering comparison measures.
-\newblock \emph{Journal of Machine Learning Research}, 17, 2016.
+\newblock \emph{Journal of Machine Learning Research}, 17:\penalty0 1--32,
+  2016.
 
 \bibitem[Saini and Rani(2017)]{R:saini-rani:2017}
 S.~Saini and P.~Rani.
